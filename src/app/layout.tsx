@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://replacementwindowsirving.com',
     siteName: 'Replacement Windows of Irving',
-    title: 'Replacement Windows Irving TX | Andersen, Pella & Jeld-Wen Dealer',
+    title: 'Best Window Replacement in Irving, TX',
     description: 'Premier window replacement services in Irving, TX. Authorized dealer for Andersen, Pella & Jeld-Wen windows. Expert installation of double-hung, casement, bay, bow & specialty windows.',
     images: [
       {

@@ -16,7 +16,7 @@ export default function SpecialShapeWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1920&q=80)',
+            backgroundImage: 'url(/windows/special-shape-windows-irving-tx.jpg)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -39,7 +39,7 @@ export default function SpecialShapeWindowsPage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&q=80"
+                src="/windows/special-shape-windows-irving-tx.jpg"
                 alt="Arched window in Irving home"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -134,38 +134,24 @@ export default function SpecialShapeWindowsPage() {
           </h2>
           
           <div className="space-y-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Combining Shapes for Impact</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  The most dramatic window designs combine special shapes with standard rectangles. A radius-top transom above a large picture window creates instant elegance. Triangular gable windows paired with rectangular first-floor windows establish vertical rhythm. Half-circle transoms over entry doors with flanking sidelights compose welcoming entrances. The possibilities are limitless.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Work with our design consultants to balance aesthetics and function. Special shapes deliver maximum impact when they enhance rather than overwhelm. Strategic placement—above doorways, in gable ends, flanking fireplaces—creates focal points without sacrificing wall space needed for furniture placement or artwork display.
-                </p>
-              </div>
-              <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-                alt="Combined special shape windows"
-                className="w-full aspect-[4/3] object-cover"
-              />
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Combining Shapes for Impact</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                The most dramatic window designs combine special shapes with standard rectangles. A radius-top transom above a large picture window creates instant elegance. Triangular gable windows paired with rectangular first-floor windows establish vertical rhythm. Half-circle transoms over entry doors with flanking sidelights compose welcoming entrances. The possibilities are limitless.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Work with our design consultants to balance aesthetics and function. Special shapes deliver maximum impact when they enhance rather than overwhelm. Strategic placement—above doorways, in gable ends, flanking fireplaces—creates focal points without sacrificing wall space needed for furniture placement or artwork display.
+              </p>
             </div>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <img
-                src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80"
-                alt="Custom shape window design"
-                className="w-full aspect-[4/3] object-cover order-2 lg:order-1"
-              />
-              <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Glass and Grid Options</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Special shape windows accept the same high-performance glass options as standard windows—Low-E coatings, argon fills, tempered or laminated glass for safety. Don't sacrifice energy efficiency for aesthetics; modern manufacturing delivers both simultaneously. Texas summers demand high-performance glass regardless of window shape.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Decorative grids add traditional character to special shape windows. Sunburst patterns radiate from arches' apex. Diamond or rectangular grids organize circular windows into geometric patterns. Grid styles should match other windows throughout your Irving home for cohesive design—mixing grid styles appears haphazard rather than intentional.
-                </p>
-              </div>
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Glass and Grid Options</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Special shape windows accept the same high-performance glass options as standard windows—Low-E coatings, argon fills, tempered or laminated glass for safety. Don't sacrifice energy efficiency for aesthetics; modern manufacturing delivers both simultaneously. Texas summers demand high-performance glass regardless of window shape.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Decorative grids add traditional character to special shape windows. Sunburst patterns radiate from arches' apex. Diamond or rectangular grids organize circular windows into geometric patterns. Grid styles should match other windows throughout your Irving home for cohesive design—mixing grid styles appears haphazard rather than intentional.
+              </p>
             </div>
           </div>
         </div>

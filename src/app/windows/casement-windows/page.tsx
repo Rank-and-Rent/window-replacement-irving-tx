@@ -16,7 +16,7 @@ export default function CasementWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80)',
+            backgroundImage: 'url(/windows/casement-windows-irving-tx.webp)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -39,7 +39,7 @@ export default function CasementWindowsPage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1000&q=80"
+                src="/windows/casement-windows-irving-tx.webp"
                 alt="Casement window open in Irving home"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -120,38 +120,24 @@ export default function CasementWindowsPage() {
           </h2>
           
           <div className="space-y-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Hinge Side Selection Matters</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Casement windows can be hinged on either the left or right side, affecting both aesthetics and function. For windows above kitchen sinks, hinge the sash away from the faucet to prevent interference. When installing pairs of casement windows, hinging them to open from the center creates a French window effect with traditional appeal.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Consider your Irving home's prevailing wind direction when specifying hinge placement. Windows hinged correctly will catch breezes effectively; hinged incorrectly they might be blown shut by gusts. Our design consultants help Irving homeowners make these important decisions during the planning phase.
-                </p>
-              </div>
-              <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-                alt="Casement window hinge detail"
-                className="w-full aspect-[4/3] object-cover"
-              />
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Hinge Side Selection Matters</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Casement windows can be hinged on either the left or right side, affecting both aesthetics and function. For windows above kitchen sinks, hinge the sash away from the faucet to prevent interference. When installing pairs of casement windows, hinging them to open from the center creates a French window effect with traditional appeal.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Consider your Irving home's prevailing wind direction when specifying hinge placement. Windows hinged correctly will catch breezes effectively; hinged incorrectly they might be blown shut by gusts. Our design consultants help Irving homeowners make these important decisions during the planning phase.
+              </p>
             </div>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <img
-                src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80"
-                alt="Casement windows in modern home"
-                className="w-full aspect-[4/3] object-cover order-2 lg:order-1"
-              />
-              <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Exterior Clearance Requirements</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Because casement windows swing outward, ensure adequate clearance in your Irving yard or patio. Windows opening onto decks, walkways, or landscaped areas need sufficient space to open fully without obstruction. Measure the sash projection when fully open—typically 6-10 inches depending on window width.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Avoid placing casement windows where they'll interfere with outdoor faucets, electrical outlets, or HVAC equipment. Your Replacement Windows of Irving consultant reviews exterior conditions during the estimate appointment to identify potential conflicts before ordering custom windows.
-                </p>
-              </div>
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Exterior Clearance Requirements</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Because casement windows swing outward, ensure adequate clearance in your Irving yard or patio. Windows opening onto decks, walkways, or landscaped areas need sufficient space to open fully without obstruction. Measure the sash projection when fully open—typically 6-10 inches depending on window width.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Avoid placing casement windows where they'll interfere with outdoor faucets, electrical outlets, or HVAC equipment. Your Replacement Windows of Irving consultant reviews exterior conditions during the estimate appointment to identify potential conflicts before ordering custom windows.
+              </p>
             </div>
           </div>
         </div>

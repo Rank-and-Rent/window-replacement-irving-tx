@@ -72,8 +72,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon/favicon-16x16.png" sizes="16x16" type="image/png" />
+        <link rel="icon" href="/favicon/favicon-32x32.png" sizes="32x32" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
         <meta name="theme-color" content="#515151" />
         <meta name="geo.region" content="US-TX" />
         <meta name="geo.placename" content="Irving" />
@@ -84,11 +87,14 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'LocalBusiness',
+              '@type': 'HomeAndConstructionBusiness',
+              '@id': 'https://replacementwindowsirving.com/#organization',
               name: 'Replacement Windows of Irving',
+              alternateName: 'Irving Window Replacement',
               description: 'Premier window replacement services in Irving, TX. Authorized dealer for Andersen, Pella & Jeld-Wen windows.',
               url: 'https://replacementwindowsirving.com',
               telephone: '+1-972-284-7995',
+              email: 'info@replacementwindowsirving.com',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '909 Hidden Ridge Dr #180',
@@ -102,14 +108,24 @@ export default function RootLayout({
                 latitude: 32.8140,
                 longitude: -96.9489,
               },
-              areaServed: {
-                '@type': 'City',
-                name: 'Irving',
-                containedInPlace: {
-                  '@type': 'State',
-                  name: 'Texas',
-                },
-              },
+              areaServed: [
+                { '@type': 'City', name: 'Irving', containedInPlace: { '@type': 'State', name: 'Texas' } },
+                { '@type': 'City', name: 'Las Colinas' },
+                { '@type': 'City', name: 'Coppell' },
+                { '@type': 'City', name: 'Grapevine' },
+                { '@type': 'City', name: 'Carrollton' },
+                { '@type': 'City', name: 'Farmers Branch' },
+                { '@type': 'City', name: 'Grand Prairie' },
+              ],
+              knowsAbout: [
+                'Window Replacement',
+                'Window Installation',
+                'Energy Efficient Windows',
+                'Double-Hung Windows',
+                'Casement Windows',
+                'Bay Windows',
+                'Bow Windows',
+              ],
               serviceType: [
                 'Window Replacement',
                 'Window Installation',
@@ -143,8 +159,61 @@ export default function RootLayout({
                 },
               ],
               priceRange: '$$',
+              currenciesAccepted: 'USD',
+              paymentAccepted: 'Cash, Credit Card, Financing',
               image: 'https://replacementwindowsirving.com/og-image.jpg',
+              logo: 'https://replacementwindowsirving.com/logo.png',
+              slogan: 'Premium Window Replacement for Irving Homes',
+              foundingDate: '2010',
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '4.9',
+                reviewCount: '143',
+                bestRating: '5',
+                worstRating: '1',
+              },
               sameAs: [],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              '@id': 'https://replacementwindowsirving.com/#website',
+              name: 'Replacement Windows of Irving',
+              url: 'https://replacementwindowsirving.com',
+              publisher: { '@id': 'https://replacementwindowsirving.com/#organization' },
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: {
+                  '@type': 'EntryPoint',
+                  urlTemplate: 'https://replacementwindowsirving.com/search?q={search_term_string}',
+                },
+                'query-input': 'required name=search_term_string',
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              '@id': 'https://replacementwindowsirving.com/#org',
+              name: 'Replacement Windows of Irving',
+              url: 'https://replacementwindowsirving.com',
+              logo: 'https://replacementwindowsirving.com/logo.png',
+              contactPoint: {
+                '@type': 'ContactPoint',
+                telephone: '+1-972-284-7995',
+                contactType: 'customer service',
+                areaServed: 'US',
+                availableLanguage: ['English', 'Spanish'],
+              },
             }),
           }}
         />

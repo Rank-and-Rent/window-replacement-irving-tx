@@ -16,7 +16,7 @@ export default function AwningWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80)',
+            backgroundImage: 'url(/windows/awning-windows-irving-tx.avif)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -54,7 +54,7 @@ export default function AwningWindowsPage() {
             
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1000&q=80"
+                src="/windows/awning-windows-irving-tx.avif"
                 alt="Awning window open during weather"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -125,19 +125,6 @@ export default function AwningWindowsPage() {
               <p className="text-charcoal-600 leading-relaxed">
                 Multi-point locking mechanisms on quality awning windows engage at multiple locations around the frame, creating exceptional seal compression and security. These locks resist forced entry better than traditional window latches, giving you peace of mind whether you're home or away from your Irving property.
               </p>
-            </div>
-            
-            <div className="space-y-6">
-              <img
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
-                alt="Awning window security features"
-                className="w-full aspect-[4/3] object-cover"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80"
-                alt="Awning window in bathroom"
-                className="w-full aspect-[4/3] object-cover"
-              />
             </div>
           </div>
         </div>

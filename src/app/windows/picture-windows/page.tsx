@@ -16,7 +16,7 @@ export default function PictureWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920&q=80)',
+            backgroundImage: 'url(/windows/picture-windows-irving-tx.jpg)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -39,7 +39,7 @@ export default function PictureWindowsPage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&q=80"
+                src="/windows/picture-windows-irving-tx.jpg"
                 alt="Large picture window with view"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -70,38 +70,24 @@ export default function PictureWindowsPage() {
           </h2>
           
           <div className="space-y-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Combining with Operable Windows</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Picture windows rarely stand alone—they're typically flanked by operable casement or double-hung windows providing ventilation. This combination delivers both expansive views through the center picture window and functional air circulation through side operables. It's the best of both worlds: maximum glass where you want unobstructed views, ventilation where you need it.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Architects designing Irving homes routinely specify picture windows with operable flankers for great rooms, master bedrooms, and dining areas. The central picture window becomes the room's focal point while side windows handle practical ventilation needs—and the overall cost is less than making the entire opening operable.
-                </p>
-              </div>
-              <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-                alt="Picture window with side casements"
-                className="w-full aspect-[4/3] object-cover"
-              />
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Combining with Operable Windows</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Picture windows rarely stand alone—they're typically flanked by operable casement or double-hung windows providing ventilation. This combination delivers both expansive views through the center picture window and functional air circulation through side operables. It's the best of both worlds: maximum glass where you want unobstructed views, ventilation where you need it.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Architects designing Irving homes routinely specify picture windows with operable flankers for great rooms, master bedrooms, and dining areas. The central picture window becomes the room's focal point while side windows handle practical ventilation needs—and the overall cost is less than making the entire opening operable.
+              </p>
             </div>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <img
-                src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80"
-                alt="Large picture window wall"
-                className="w-full aspect-[4/3] object-cover order-2 lg:order-1"
-              />
-              <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Creating Window Walls</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Multiple picture windows can be joined to create floor-to-ceiling glass walls spanning entire rooms. Modern structural engineering allows glass expanses previously impossible, with minimal framing interrupting views. These dramatic installations define contemporary Irving architecture—flooding spaces with daylight while erasing boundaries between interior and landscape.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  The structural glass systems from Andersen, Pella, and Jeld-Wen achieve remarkable spans while meeting Texas building codes for wind load and impact resistance. Laminated and tempered glass options provide safety in floor-level applications where human impact is possible.
-                </p>
-              </div>
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Creating Window Walls</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Multiple picture windows can be joined to create floor-to-ceiling glass walls spanning entire rooms. Modern structural engineering allows glass expanses previously impossible, with minimal framing interrupting views. These dramatic installations define contemporary Irving architecture—flooding spaces with daylight while erasing boundaries between interior and landscape.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                The structural glass systems from Andersen, Pella, and Jeld-Wen achieve remarkable spans while meeting Texas building codes for wind load and impact resistance. Laminated and tempered glass options provide safety in floor-level applications where human impact is possible.
+              </p>
             </div>
           </div>
         </div>

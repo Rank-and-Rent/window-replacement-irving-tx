@@ -1,0 +1,310 @@
+'use client'
+
+import type { Metadata } from 'next'
+import { PageHeader } from '@/components/page-header'
+import { PageFooter } from '@/components/page-footer'
+import { useState } from 'react'
+import { servicesData } from '@/data'
+
+export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    fullName: '',
+    phone: '',
+    email: '',
+    service: '',
+    address: '',
+    timeline: '',
+    description: ''
+  })
+
+  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setStatus('submitting')
+    
+    // Add your form submission logic here
+    setTimeout(() => {
+      setStatus('success')
+      setFormData({
+        fullName: '',
+        phone: '',
+        email: '',
+        service: '',
+        address: '',
+        timeline: '',
+        description: ''
+      })
+    }, 1000)
+  }
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value
+    }))
+  }
+
+  const windowServices = servicesData.filter(s => s.category === 'Windows')
+  const doorServices = servicesData.filter(s => s.category === 'Doors')
+
+  return (
+    <div className="min-h-screen bg-white">
+      <PageHeader />
+
+      {/* Hero */}
+      <section className="hero-section py-20 bg-stone-100">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
+          <h1 className="text-heading-serif text-4xl md:text-5xl lg:text-6xl text-charcoal-900 font-light mb-6">
+            Contact Us
+          </h1>
+          <p className="text-charcoal-600 text-xl max-w-2xl mx-auto">
+            Get a free consultation for your window and door project in Irving, TX
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Contact Info */}
+            <div>
+              <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-8">
+                Get in Touch
+              </h2>
+              <p className="text-charcoal-600 text-base leading-relaxed mb-8">
+                Ready to upgrade your windows or doors? Fill out the form and we&apos;ll get back to you within 24 hours with a free, no-obligation quote.
+              </p>
+
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-2">
+                    Phone
+                  </h3>
+                  <a href="tel:972-284-7995" className="text-charcoal-600 hover:text-charcoal-900">
+                    972-284-7995
+                  </a>
+                </div>
+
+                <div>
+                  <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-2">
+                    Email
+                  </h3>
+                  <a href="mailto:info@replacementwindowsirving.com" className="text-charcoal-600 hover:text-charcoal-900">
+                    info@replacementwindowsirving.com
+                  </a>
+                </div>
+
+                <div>
+                  <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-2">
+                    Address
+                  </h3>
+                  <p className="text-charcoal-600">
+                    909 Hidden Ridge Dr #180<br />
+                    Irving, TX 75038
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-2">
+                    Hours
+                  </h3>
+                  <p className="text-charcoal-600">
+                    Open 24/7 - Available for Emergency Service
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Contact Form */}
+            <div className="bg-charcoal-500 p-8 md:p-12">
+              <h3 className="text-heading-serif text-2xl text-white font-light mb-6">
+                Request a Free Quote
+              </h3>
+              
+              {status === 'success' && (
+                <div className="bg-green-500 text-white p-4 rounded mb-6">
+                  Thank you! We&apos;ll contact you soon.
+                </div>
+              )}
+
+              <form onSubmit={handleSubmit} className="space-y-4">
+                {/* Full Name */}
+                <div>
+                  <label htmlFor="fullName" className="block text-white text-sm mb-2">
+                    Full Name *
+                  </label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    value={formData.fullName}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                    placeholder="John Smith"
+                  />
+                </div>
+
+                {/* Phone Number */}
+                <div>
+                  <label htmlFor="phone" className="block text-white text-sm mb-2">
+                    Phone Number *
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                    placeholder="(972) 284-7995"
+                  />
+                </div>
+
+                {/* Email */}
+                <div>
+                  <label htmlFor="email" className="block text-white text-sm mb-2">
+                    Email Address *
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                    placeholder="john@example.com"
+                  />
+                </div>
+
+                {/* Service Interested In */}
+                <div>
+                  <label htmlFor="service" className="block text-white text-sm mb-2">
+                    Service Interested In *
+                  </label>
+                  <select
+                    id="service"
+                    name="service"
+                    value={formData.service}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                  >
+                    <option value="">Select a service...</option>
+                    <optgroup label="Windows">
+                      {windowServices.map(service => (
+                        <option key={service.slug} value={service.name}>
+                          {service.name}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="Doors">
+                      {doorServices.map(service => (
+                        <option key={service.slug} value={service.name}>
+                          {service.name}
+                        </option>
+                      ))}
+                    </optgroup>
+                    <option value="Not Sure / Multiple Services">Not Sure / Multiple Services</option>
+                  </select>
+                </div>
+
+                {/* Property Address */}
+                <div>
+                  <label htmlFor="address" className="block text-white text-sm mb-2">
+                    Property Address *
+                  </label>
+                  <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    value={formData.address}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                    placeholder="123 Main St, Irving, TX 75038"
+                  />
+                </div>
+
+                {/* Project Timeline */}
+                <div>
+                  <label htmlFor="timeline" className="block text-white text-sm mb-2">
+                    Project Timeline *
+                  </label>
+                  <select
+                    id="timeline"
+                    name="timeline"
+                    value={formData.timeline}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                  >
+                    <option value="">Select timeline...</option>
+                    <option value="ASAP">ASAP</option>
+                    <option value="Within 1 month">Within 1 month</option>
+                    <option value="Within 3 months">Within 3 months</option>
+                    <option value="Within 6 months">Within 6 months</option>
+                    <option value="6+ months">6+ months</option>
+                    <option value="Just researching">Just researching</option>
+                  </select>
+                </div>
+
+                {/* Project Description */}
+                <div>
+                  <label htmlFor="description" className="block text-white text-sm mb-2">
+                    Project Description *
+                  </label>
+                  <textarea
+                    id="description"
+                    name="description"
+                    value={formData.description}
+                    onChange={handleChange}
+                    required
+                    rows={4}
+                    className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                    placeholder="Tell us about your project or any questions you have..."
+                  />
+                </div>
+
+                {/* Submit Button */}
+                <button
+                  type="submit"
+                  disabled={status === 'submitting'}
+                  className="w-full btn-white py-4"
+                >
+                  {status === 'submitting' ? 'Sending...' : 'Send Message'}
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section */}
+      <section className="py-20 bg-stone-100">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light text-center mb-12">
+            Visit Us
+          </h2>
+          <div className="aspect-video w-full max-w-4xl mx-auto">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.3!2d-96.97!3d32.87!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDUyJzEzLjIiTiA5NsKwNTgnMTIuMCJX!5e0!3m2!1sen!2sus!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
+
+      <PageFooter />
+    </div>
+  )
+}

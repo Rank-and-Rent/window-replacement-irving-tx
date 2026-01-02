@@ -16,7 +16,7 @@ export default function SlidingWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&q=80)',
+            backgroundImage: 'url(/windows/sliding-windows-irving-tx.webp)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -54,7 +54,7 @@ export default function SlidingWindowsPage() {
             
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80"
+                src="/windows/sliding-windows-irving-tx.webp"
                 alt="Wide sliding window with view"
                 className="w-full aspect-[4/5] object-cover"
               />

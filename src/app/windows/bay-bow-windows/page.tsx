@@ -16,7 +16,7 @@ export default function BayBowWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&q=80)',
+            backgroundImage: 'url(/windows/bay-bow-windows-irving-tx.jpg)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -54,7 +54,7 @@ export default function BayBowWindowsPage() {
             
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1000&q=80"
+                src="/windows/bay-bow-windows-irving-tx.jpg"
                 alt="Bay window interior view"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -106,44 +106,30 @@ export default function BayBowWindowsPage() {
           </h2>
           
           <div className="space-y-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
-              <div>
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Structural Requirements</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Bay and bow windows require engineered support systems because they project beyond your home's wall structure. The window assembly's weight—often 200-400 pounds with glass—must be carried by brackets or cables properly anchored to your Irving home's framing. This isn't DIY territory; professional installation ensures structural integrity and long-term performance.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Our factory-trained installers verify framing adequacy before beginning installation. In rare cases where original framing is insufficient, we reinforce headers and supports to meet current building codes. This upfront structural evaluation prevents future problems like sagging, water infiltration, or even window failure.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Modern bay and bow window systems from Andersen, Pella, and Jeld-Wen include engineered support systems designed for their specific sizes and weights. These pre-engineered solutions eliminate guesswork while ensuring compliance with Texas wind load requirements—critical in a state where severe weather is routine rather than exceptional.
-                </p>
-              </div>
-              <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-                alt="Bay window structural support"
-                className="w-full aspect-[4/3] object-cover"
-              />
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Structural Requirements</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Bay and bow windows require engineered support systems because they project beyond your home's wall structure. The window assembly's weight—often 200-400 pounds with glass—must be carried by brackets or cables properly anchored to your Irving home's framing. This isn't DIY territory; professional installation ensures structural integrity and long-term performance.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Our factory-trained installers verify framing adequacy before beginning installation. In rare cases where original framing is insufficient, we reinforce headers and supports to meet current building codes. This upfront structural evaluation prevents future problems like sagging, water infiltration, or even window failure.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Modern bay and bow window systems from Andersen, Pella, and Jeld-Wen include engineered support systems designed for their specific sizes and weights. These pre-engineered solutions eliminate guesswork while ensuring compliance with Texas wind load requirements—critical in a state where severe weather is routine rather than exceptional.
+              </p>
             </div>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
-              <img
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
-                alt="Bay window roofing detail"
-                className="w-full aspect-[4/3] object-cover order-2 lg:order-1"
-              />
-              <div className="order-1 lg:order-2">
-                <h3 className="text-2xl font-light text-charcoal-900 mb-4">Roofing and Weatherproofing</h3>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Bay and bow windows project beyond your Irving home's roofline, requiring independent roof systems to shed rain and prevent leaks. Quality installations include custom copper, aluminum, or composite roofing matched to your home's aesthetics. Proper flashing integration with existing siding is critical—shortcuts here lead to expensive water damage.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed mb-4">
-                  Interior finishing includes custom trim work concealing the transition between the projecting window and your home's interior wall. Skilled carpentry makes this transition appear intentional and elegant rather than added-on. Many Irving homeowners add decorative corbels or brackets beneath bay windows to enhance the architectural statement.
-                </p>
-                <p className="text-charcoal-600 leading-relaxed">
-                  Insulation beneath the projecting window floor prevents cold air pockets during winter and heat buildup in summer. Without proper insulation, the bay or bow window's extended floor becomes uncomfortably cold or hot—wasting the space you invested to create. Our installations include full insulation and proper air sealing for year-round comfort.
-                </p>
-              </div>
+            <div>
+              <h3 className="text-2xl font-light text-charcoal-900 mb-4">Roofing and Weatherproofing</h3>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Bay and bow windows project beyond your Irving home's roofline, requiring independent roof systems to shed rain and prevent leaks. Quality installations include custom copper, aluminum, or composite roofing matched to your home's aesthetics. Proper flashing integration with existing siding is critical—shortcuts here lead to expensive water damage.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed mb-4">
+                Interior finishing includes custom trim work concealing the transition between the projecting window and your home's interior wall. Skilled carpentry makes this transition appear intentional and elegant rather than added-on. Many Irving homeowners add decorative corbels or brackets beneath bay windows to enhance the architectural statement.
+              </p>
+              <p className="text-charcoal-600 leading-relaxed">
+                Insulation beneath the projecting window floor prevents cold air pockets during winter and heat buildup in summer. Without proper insulation, the bay or bow window's extended floor becomes uncomfortably cold or hot—wasting the space you invested to create. Our installations include full insulation and proper air sealing for year-round comfort.
+              </p>
             </div>
           </div>
         </div>

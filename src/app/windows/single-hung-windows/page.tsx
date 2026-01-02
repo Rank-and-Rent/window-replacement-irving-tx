@@ -16,7 +16,7 @@ export default function SingleHungWindowsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&q=80)',
+            backgroundImage: 'url(/windows/single-hung-windows-irving-tx.jpg)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
@@ -54,7 +54,7 @@ export default function SingleHungWindowsPage() {
             
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1000&q=80"
+                src="/windows/single-hung-windows-irving-tx.jpg"
                 alt="Single-hung window in Irving home"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -106,14 +106,7 @@ export default function SingleHungWindowsPage() {
             Energy performance that matches Irving's demands
           </h2>
           
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <img
-              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1000&q=80"
-              alt="Energy efficient single-hung window"
-              className="w-full aspect-[4/3] object-cover"
-            />
-            
-            <div className="space-y-6">
+          <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-light text-charcoal-900 mb-3">Low-E Glass Technology</h3>
                 <p className="text-charcoal-600 leading-relaxed">
@@ -134,7 +127,6 @@ export default function SingleHungWindowsPage() {
                   Modern single-hung windows use foam or composite spacers between glass panes instead of old-fashioned aluminum. These "warm-edge" spacers eliminate thermal bridging that allowed heat transfer in previous-generation windows. The result: reduced condensation, improved comfort, and better energy efficiency across Irving's temperature extremes.
                 </p>
               </div>
-            </div>
           </div>
         </div>
       </section>

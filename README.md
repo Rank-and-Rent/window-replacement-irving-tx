@@ -1,84 +1,53 @@
-# Replacement Windows of Irving
+# Window and Door Replacement Services - Irving, TX
 
-A professional website for Replacement Windows of Irving - a premium window replacement service provider in Irving, TX, offering Andersen, Pella, and Jeld-Wen window installations.
+This site connects Irving, TX property owners with professional window and door installation contractors.
 
-## Business Information
+## Data Taxonomy Rationale
 
-- **Business Name:** Replacement Windows of Irving
-- **Address:** 909 Hidden Ridge Dr #180, Irving, TX 75038
-- **Phone:** 972-284-7995
-- **Domain:** replacementwindowsirving.com
+The services taxonomy covers 50+ window and door services organized into logical categories: Window Installation (10 types), Specialty Windows (5 types), Window Replacement (4 types), Energy Efficient options (4 types), Door Installation (9 types), Door Replacement (3 types), Repair Services (8 types), and Specialty Services (9 types). This comprehensive structure ensures we can match property owners with contractors for any window or door need, from basic double-hung window replacement to custom pivot doors and specialty residential installations.
 
-## Features
+The locations taxonomy includes 35+ service areas within 30 miles of Irving, TX, covering major nearby cities (Fort Worth, Grand Prairie, Mansfield, Irving), smaller suburbs (Euless, Bedford, Hurst, Grapevine, Colleyville, Southlake), and Irving neighborhoods and districts. This geographic coverage ensures we can connect property owners throughout the Dallas-Fort Worth metroplex with qualified local contractors.
 
-- Modern, responsive design with navy blue and gold color scheme
-- SEO-optimized content for window replacement services in Irving, TX
-- Window types covered:
-  - Double-Hung Windows
-  - Single-Hung Windows
-  - Awning Windows
-  - Casement Windows
-  - Sliding Windows
-  - Picture Windows
-  - Bay & Bow Windows
-  - Special Shape Windows
-- Premium brand partnerships:
-  - Andersen Windows
-  - Pella Windows
-  - Jeld-Wen Windows
-
-## Tech Stack
-
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Icons:** Font Awesome (Solid & Brands)
-- **Fonts:** Playfair Display + Source Sans 3
-
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run the development server (when ready):
-   ```bash
-   npm run dev
-   ```
-
-3. Build for production:
-   ```bash
-   npm run build
-   ```
+The brands taxonomy features the four premium window and door manufacturers most requested by Irving homeowners: Andersen Windows & Doors (known for Fibrex technology and 120+ years of quality), Pella Windows & Doors (recognized for energy efficiency and customization), JELD-WEN Windows & Doors (offering value and reliability), and Marvin Windows & Doors (premium custom craftsmanship). Each brand page provides detailed information to help property owners make informed decisions.
 
 ## Project Structure
 
-```
-src/
-├── app/
-│   ├── layout.tsx    # Root layout with SEO metadata
-│   ├── page.tsx      # Homepage with all sections
-│   └── globals.css   # Global styles and Tailwind
-```
+- `/data` - TypeScript data files for services, locations, brands, resources, and layouts
+- `/data/batches` - Batch content data organized for content generation
+- `/prompts` - Batch prompt files for content generation
+- `/src/app` - Next.js app directory with pages and routes
+- `/src/components` - Reusable React components
 
-## Color Palette
+## Technology Stack
 
-- **Navy Blue:** Primary brand color (#102a43 to #243b53)
-- **Gold:** Accent color (#d4a84a)
-- **Cream:** Background (#fdfaf3)
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: CSS Modules
+- **Animation**: Framer Motion
+- **CMS**: Sanity (for blog content)
+- **Analytics**: Vercel Analytics
+- **Forms**: SendGrid + Cloudflare Turnstile + Zapier
 
-## SEO Features
+## Key Features
 
-- Comprehensive meta tags
-- Open Graph and Twitter cards
-- Local business schema markup
-- Geo-targeting meta tags for Irving, TX
-- Keyword-optimized content
+- 56+ window and door services
+- 35+ service area locations
+- 4 premium brand showcases (Andersen, Pella, JELD-WEN, Marvin)
+- Blog with Sanity CMS
+- Contact form with anti-spam protection
+- SEO optimized with JSON-LD schema
+- Responsive design
+- Accessibility focused
 
-## License
+## Rank and Rent Compliance
 
-Proprietary - Replacement Windows of Irving
+This site follows rank and rent best practices. See `RANK-AND-RENT-COMPLIANCE.md` for detailed guidelines.
 
+## Local Resources
 
-
+The site links to relevant local resources including:
+- City of Irving building permits and contractor registration
+- Texas Residential Code and building standards
+- ENERGY STAR window ratings
+- NFRC energy performance ratings
+- Industry standards (AAMA, WDMA, IRC)

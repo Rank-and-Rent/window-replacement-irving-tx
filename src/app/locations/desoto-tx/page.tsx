@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement DeSoto TX | Premium Installation Services',
-  description: 'Professional window replacement throughout DeSoto, TX. Serving all DeSoto neighborhoods. Andersen, Pella & Jeld-Wen authorized dealer. Expert service: 972-284-7995',
+  description: 'Professional window replacement throughout DeSoto, TX. Serving all DeSoto neighborhoods. Andersen, Pella & Jeld-Wen windows. Expert service: 972-284-7995',
 }
 
 export default function DeSotoPage() {

@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Duncanville TX | Premium Installation Services',
-  description: 'Professional window replacement throughout Duncanville, TX. Serving all Duncanville neighborhoods. Andersen, Pella & Jeld-Wen authorized dealer. Expert service: 972-284-7995',
+  description: 'Professional window replacement throughout Duncanville, TX. Serving all Duncanville neighborhoods. Andersen, Pella & Jeld-Wen windows. Expert service: 972-284-7995',
 }
 
 export default function DuncanvillePage() {

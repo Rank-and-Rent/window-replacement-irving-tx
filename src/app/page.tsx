@@ -58,7 +58,44 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center">
-        <div 
+        {/* Brand Logos Banner - positioned below fixed header */}
+        <div className="absolute top-[80px] left-0 right-0 z-20 bg-white/90 backdrop-blur-sm border-b border-gray-200/20">
+          <div className="max-w-[1400px] mx-auto px-4 lg:px-12 py-3 lg:py-4">
+            <div className="flex items-center justify-center gap-3 sm:gap-4 lg:gap-8">
+              <span className="hidden sm:inline text-sm font-medium text-gray-700 mr-2 lg:mr-4">Trusted Brands:</span>
+              <a href="/brands" className="hover:opacity-80 transition-opacity flex-shrink-0">
+                <img
+                  src="/andersen-windows-and-doors-logo.png"
+                  alt="Andersen Windows & Doors"
+                  className="h-6 sm:h-8 lg:h-10 w-auto"
+                />
+              </a>
+              <a href="/brands" className="hover:opacity-80 transition-opacity flex-shrink-0">
+                <img
+                  src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                  alt="Pella Windows & Doors"
+                  className="h-6 sm:h-8 lg:h-10 w-auto"
+                />
+              </a>
+              <a href="/brands" className="hover:opacity-80 transition-opacity flex-shrink-0">
+                <img
+                  src="/jeld-wen-windows-and-doors-logo.png"
+                  alt="Jeld-Wen Windows & Doors"
+                  className="h-6 sm:h-8 lg:h-10 w-auto"
+                />
+              </a>
+              <a href="/brands" className="hover:opacity-80 transition-opacity flex-shrink-0">
+                <img
+                  src="/Marvin-LOCKUP-CMYK-898x301.png"
+                  alt="Marvin Windows & Doors"
+                  className="h-6 sm:h-8 lg:h-10 w-auto"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: 'url(/windows/double-hung-windows-irving-tx.avif)',
@@ -66,7 +103,7 @@ export default function HomePage() {
         />
         <div className="hero-overlay absolute inset-0" />
         
-        <div className="relative z-10 w-full text-center px-6 pt-32">
+        <div className="relative z-10 w-full text-center px-6 pt-40">
           <h1 className="text-heading-serif text-4xl md:text-5xl lg:text-6xl text-white font-light mb-6 max-w-4xl mx-auto leading-tight">
             Premium Window Replacement in Irving, TX
           </h1>
@@ -199,16 +236,35 @@ export default function HomePage() {
           <h2 className="text-center text-[13px] tracking-[0.2em] uppercase font-medium text-charcoal-400 mb-12">
             Brands we carry
           </h2>
-          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20">
-            {brands.map((brand) => (
-              <a 
-                key={brand}
-                href={`/brands/${brand.toLowerCase()}`}
-                className="text-2xl md:text-3xl font-light text-charcoal-400 hover:text-charcoal-900 transition-colors tracking-wide"
-              >
-                {brand.toUpperCase()}
-              </a>
-            ))}
+          <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 max-w-6xl mx-auto">
+            <a href="/brands/andersen" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/andersen-windows-and-doors-logo.png"
+                alt="Andersen Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </a>
+            <a href="/brands/pella" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                alt="Pella Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </a>
+            <a href="/brands/jeld-wen" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/jeld-wen-windows-and-doors-logo.png"
+                alt="Jeld-Wen Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </a>
+            <a href="/brands/marvin" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                alt="Marvin Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </a>
           </div>
         </div>
       </section>

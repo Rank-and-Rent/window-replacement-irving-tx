@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Window Replacement Garland TX | Expert Installation Services',
   description: 'Window replacement in Garland, TX. Serving all Garland neighborhoods. And
 
-ersen, Pella & Jeld-Wen authorized dealer. Free estimates: 972-284-7995',
+ersen, Pella & Jeld-Wen windows. Free estimates: 972-284-7995',
 }
 
 export default function GarlandPage() {

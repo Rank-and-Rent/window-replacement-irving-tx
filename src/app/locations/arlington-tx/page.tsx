@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Arlington TX | Quality Installation & Service',
-  description: 'Expert window replacement in Arlington, TX. Serving from Entertainment District to Mansfield Highway. Andersen, Pella & Jeld-Wen authorized dealer. Call 972-284-7995',
+  description: 'Expert window replacement in Arlington, TX. Serving from Entertainment District to Mansfield Highway. Andersen, Pella & Jeld-Wen windows. Call 972-284-7995',
 }
 
 export default function ArlingtonPage() {
@@ -26,7 +26,7 @@ export default function ArlingtonPage() {
             Window Replacement in Arlington, TX
           </h1>
           <p className="text-white/90 text-lg md:text-xl max-w-2xl mb-8">
-            Premium replacement windows for Arlington homes—from historic Woodland West to growing developments near Joe Pool Lake. Factory-trained installation and authorized dealer pricing.
+            Premium replacement windows for Arlington homes—from historic Woodland West to growing developments near Joe Pool Lake. Factory-trained installation and competitive pricing.
           </p>
           <a href="/contact" className="btn-white">
             Request Estimate

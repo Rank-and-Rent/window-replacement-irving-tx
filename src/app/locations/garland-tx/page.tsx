@@ -48,7 +48,7 @@ export default function GarlandPage() {
             </div>
             <div>
               <h3 className="text-xl font-light text-charcoal-900 mb-4">Premium Brands, Fair Pricing</h3>
-              <p className="text-charcoal-600 leading-relaxed">As authorized dealers for Andersen, Pella, and Jeld-Wen, we offer factory-direct pricing on America's most trusted window brands. You get premium quality without premium markups—just honest pricing and professional installation guaranteed to meet manufacturer specifications.</p>
+              <p className="text-charcoal-600 leading-relaxed">We offer Andersen, Pella, and Jeld-Wen, we offer factory-direct pricing on America's most trusted window brands. You get premium quality without premium markups—just honest pricing and professional installation guaranteed to meet manufacturer specifications.</p>
             </div>
           </div>
         </div>

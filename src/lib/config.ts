@@ -1,0 +1,10 @@
+export const PRIMARY_CITY = "Irving";
+export const PRIMARY_STATE_ABBR = "TX";
+export const PRIMARY_STATE_FULL = "Texas";
+export const COMPANY_NAME = "Replacement Windows Irving";
+export const PHONE = "972-284-7995";
+export const PHONE_DIGITS = "19722847995";
+export const EMAIL = "info@replacementwindowsirving.com";
+export const ADDRESS = "Irving, TX";
+export const CANONICAL_URL = "https://www.replacementwindowsirving.com/";
+export const BUSINESS_HOURS = "Open 24/7";

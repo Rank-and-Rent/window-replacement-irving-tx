@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     default: 'Replacement Windows Irving TX | Andersen, Pella & Jeld-Wen Dealer',
     template: '%s | Replacement Windows of Irving',
   },
-  description: 'Premier window replacement services in Irving, TX. Authorized dealer for Andersen, Pella & Jeld-Wen windows. Expert installation of double-hung, casement, bay, bow & specialty windows. Free estimates. Call 972-284-7995.',
+  description: 'Premier window replacement services in Irving, TX. Andersen, Pella & Jeld-Wen windows. Expert installation of double-hung, casement, bay, bow & specialty windows. Free estimates. Call 972-284-7995.',
   keywords: [
     'window replacement Irving TX',
     'replacement windows Irving',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     url: 'https://replacementwindowsirving.com',
     siteName: 'Replacement Windows of Irving',
     title: 'Best Window Replacement in Irving, TX',
-    description: 'Premier window replacement services in Irving, TX. Authorized dealer for Andersen, Pella & Jeld-Wen windows. Expert installation of double-hung, casement, bay, bow & specialty windows.',
+    description: 'Premier window replacement services in Irving, TX. Andersen, Pella & Jeld-Wen windows. Expert installation of double-hung, casement, bay, bow & specialty windows.',
     images: [
       {
         url: '/og-image.jpg',
@@ -91,7 +91,7 @@ export default function RootLayout({
               '@id': 'https://replacementwindowsirving.com/#organization',
               name: 'Replacement Windows of Irving',
               alternateName: 'Irving Window Replacement',
-              description: 'Premier window replacement services in Irving, TX. Authorized dealer for Andersen, Pella & Jeld-Wen windows.',
+              description: 'Premier window replacement services in Irving, TX. Andersen, Pella & Jeld-Wen windows.',
               url: 'https://replacementwindowsirving.com',
               telephone: '+1-972-284-7995',
               email: 'info@replacementwindowsirving.com',

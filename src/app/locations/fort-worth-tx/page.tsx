@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Fort Worth TX | Andersen, Pella & Jeld-Wen Dealer',
-  description: 'Professional window replacement in Fort Worth, TX. Authorized dealer for Andersen, Pella & Jeld-Wen windows. Expert installation serving Tarrant County. Free quotes: 972-284-7995',
+  description: 'Professional window replacement in Fort Worth, TX. Andersen, Pella & Jeld-Wen windows. Expert installation serving Tarrant County. Free quotes: 972-284-7995',
 }
 
 export default function FortWorthPage() {

@@ -59,7 +59,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center">
         {/* Brand Logos Banner - positioned below fixed header */}
-        <div className="absolute top-[80px] left-0 right-0 z-20 bg-white/90 backdrop-blur-sm border-b border-gray-200/20">
+        <div className="absolute top-[140px] left-0 right-0 z-20 bg-white/90 backdrop-blur-sm border-b border-gray-200/20">
           <div className="max-w-[1400px] mx-auto px-4 lg:px-12 py-3 lg:py-4">
             <div className="flex items-center justify-center gap-3 sm:gap-4 lg:gap-8">
               <span className="hidden sm:inline text-sm font-medium text-gray-700 mr-2 lg:mr-4">Trusted Brands:</span>
@@ -103,7 +103,7 @@ export default function HomePage() {
         />
         <div className="hero-overlay absolute inset-0" />
         
-        <div className="relative z-10 w-full text-center px-6 pt-40">
+        <div className="relative z-10 w-full text-center px-6 pt-48">
           <h1 className="text-heading-serif text-4xl md:text-5xl lg:text-6xl text-white font-light mb-6 max-w-4xl mx-auto leading-tight">
             Premium Window Replacement in Irving, TX
           </h1>

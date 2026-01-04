@@ -37,8 +37,8 @@ export default function ContactPage() {
   const [turnstileId, setTurnstileId] = useState<string | null>(null);
   const [turnstileReady, setTurnstileReady] = useState(false);
   const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
-  const windowServices = servicesData.filter(s => s.category === 'Windows');
-  const doorServices = servicesData.filter(s => s.category === 'Doors');
+  const windowServices = servicesData.filter(s => s.category && (s.category.includes('Window') || s.category === 'Windows'));
+  const doorServices = servicesData.filter(s => s.category && (s.category.includes('Door') || s.category === 'Doors'));
 
   useEffect(() => {
     let cancelled = false;
@@ -101,7 +101,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       <PageHeader />
-      <section className="hero-section py-20 bg-stone-100">
+      <section className="hero-section contact-hero bg-stone-100">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
           <h1 className="text-heading-serif text-4xl md:text-5xl lg:text-6xl text-charcoal-900 font-light mb-6">Contact Us</h1>
           <p className="text-charcoal-600 text-xl max-w-2xl mx-auto">Get a free consultation for your window and door project in Irving, TX</p>
@@ -129,7 +129,35 @@ export default function ContactPage() {
                   <div><label htmlFor="fullName" className="block text-white text-sm mb-2">Full Name *</label><input type="text" id="fullName" name="fullName" value={formData.fullName} onChange={handleChange} required className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900" placeholder="John Smith" />{errors.fullName && <p className="text-red-300 text-sm mt-1">{errors.fullName}</p>}</div>
                   <div><label htmlFor="phone" className="block text-white text-sm mb-2">Phone Number *</label><input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} required className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900" placeholder="(972) 284-7995" />{errors.phone && <p className="text-red-300 text-sm mt-1">{errors.phone}</p>}</div>
                   <div><label htmlFor="email" className="block text-white text-sm mb-2">Email Address *</label><input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900" placeholder="john@example.com" />{errors.email && <p className="text-red-300 text-sm mt-1">{errors.email}</p>}</div>
-                  <div><label htmlFor="service" className="block text-white text-sm mb-2">Service Interested In *</label><select id="service" name="service" value={formData.service} onChange={handleChange} required className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"><option value="">Select a service...</option><optgroup label="Windows">{windowServices.map(s => <option key={s.slug} value={s.name}>{s.name}</option>)}</optgroup><optgroup label="Doors">{doorServices.map(s => <option key={s.slug} value={s.name}>{s.name}</option>)}</optgroup><option value="Not Sure / Multiple Services">Not Sure / Multiple Services</option></select>{errors.service && <p className="text-red-300 text-sm mt-1">{errors.service}</p>}</div>
+                  <div>
+                    <label htmlFor="service" className="block text-white text-sm mb-2">Service Interested In *</label>
+                    <select
+                      id="service"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
+                      required
+                      className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"
+                    >
+                      <option value="">Select a service...</option>
+                      <optgroup label="Windows">
+                        {windowServices.map(service => (
+                          <option key={service.slug} value={service.name}>
+                            {service.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                      <optgroup label="Doors">
+                        {doorServices.map(service => (
+                          <option key={service.slug} value={service.name}>
+                            {service.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                      <option value="Not Sure / Multiple Services">Not Sure / Multiple Services</option>
+                    </select>
+                    {errors.service && <p className="text-red-300 text-sm mt-1">{errors.service}</p>}
+                  </div>
                   <div><label htmlFor="address" className="block text-white text-sm mb-2">Property Address *</label><input type="text" id="address" name="address" value={formData.address} onChange={handleChange} required className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900" placeholder="123 Main St, Irving, TX 75038" />{errors.address && <p className="text-red-300 text-sm mt-1">{errors.address}</p>}</div>
                   <div><label htmlFor="timeline" className="block text-white text-sm mb-2">Project Timeline *</label><select id="timeline" name="timeline" value={formData.timeline} onChange={handleChange} required className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900"><option value="">Select timeline...</option><option value="ASAP">ASAP</option><option value="Within 1 month">Within 1 month</option><option value="Within 3 months">Within 3 months</option><option value="Within 6 months">Within 6 months</option><option value="6+ months">6+ months</option><option value="Just researching">Just researching</option></select>{errors.timeline && <p className="text-red-300 text-sm mt-1">{errors.timeline}</p>}</div>
                   <div><label htmlFor="description" className="block text-white text-sm mb-2">Project Description *</label><textarea id="description" name="description" value={formData.description} onChange={handleChange} required rows={4} className="w-full px-4 py-3 bg-white border-0 rounded text-charcoal-900" placeholder="Tell us about your project..." />{errors.description && <p className="text-red-300 text-sm mt-1">{errors.description}</p>}</div>

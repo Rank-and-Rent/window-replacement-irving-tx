@@ -359,9 +359,6 @@ export const servicesData: ServiceItem[] = [
     route: "/services/custom-window-installation",
     category: "Specialty Services",
   },
-  {
-    slug: "custom-door-installation",
-  },
   
   // Materials
   {
@@ -455,7 +452,5 @@ export const servicesData: ServiceItem[] = [
     short: "Traditional wood windows with natural beauty and superior insulation",
     route: "/windows/wood-windows",
     category: "Materials",
-  },
-    category: "Specialty Services",
   },
 ];

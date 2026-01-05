@@ -174,7 +174,7 @@ export default function CustomDoorPage() {
                 How much do custom doors cost in Irving, TX?
               </h3>
               <p className="text-charcoal-600 text-sm leading-relaxed">
-                Custom door costs vary widely based on size, materials, complexity, and manufacturer. Basic custom sizing in standard materials might add 20-30% over stock doors. Extensive customization with premium materials, complex glass work, and high-end hardware can range from $5,000 to $15,000 or more installed. We provide detailed quotes based on your specific requirements.
+                Custom door costs with installation vary widely based on size, materials, complexity, and manufacturer. Everything is priced including installation. Basic custom sizing in standard materials might add 20-30% over stock doors. Extensive customization with premium materials, complex glass work, and high-end hardware can range from $5,000 to $15,000 or more with installation. We do not sell doors without installation.
               </p>
             </div>
             

@@ -323,7 +323,7 @@ export default function EntryDoorPage() {
                 How much do entry doors cost in Irving?
               </h3>
               <p className="text-charcoal-600 text-sm leading-relaxed">
-                Entry door costs in Irving, TX vary widely based on material, size, brand, and features. Basic steel doors start around $800 to $1,200 installed. Quality fiberglass doors typically range from $1,500 to $3,500 installed. Premium wood or custom doors can range from $3,000 to $8,000 or more. We provide detailed quotes based on your specific selections and installation requirements.
+                Entry door costs with installation in Irving, TX vary widely based on material, size, brand, and features. Everything is priced including installation. Basic steel doors start around $800 to $1,200 with installation. Quality fiberglass doors typically range from $1,500 to $3,500 with installation. Premium wood or custom doors can range from $3,000 to $8,000 or more with installation. We do not sell entry doors without installation.
               </p>
             </div>
           </div>

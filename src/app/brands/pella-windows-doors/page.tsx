@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Pella Windows & Doors Irving TX | Premium Installation',
   description: 'Professional Pella Windows and Doors installation in Irving, TX. Energy-efficient designs with advanced InsulShield technology. Call 972-284-7995 for free estimate.',
   keywords: 'Pella windows Irving TX, Pella doors, InsulShield windows, window installation Irving',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/brands/pella-windows-doors',
+  },
 }
 
 export default function PellaBrandPage() {

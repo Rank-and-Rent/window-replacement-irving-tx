@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Window & Door Brands Irving TX | Andersen, Pella, JELD-WEN, Marvin',
   description: 'Premium window and door brands in Irving, TX. We install Andersen, Pella, JELD-WEN, and Marvin windows and doors. Call 972-284-7995 for free estimate.',
   keywords: 'Andersen windows Irving TX, Pella windows, JELD-WEN, Marvin windows, premium window brands',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/brands',
+  },
 }
 
 export default function BrandsIndexPage() {

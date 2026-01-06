@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'JELD-WEN Windows & Doors Irving TX | Premium Installation',
   description: 'Professional JELD-WEN Windows and Doors installation in Irving, TX. Reliable, affordable solutions with AuraLast protection. Call 972-284-7995 for free estimate.',
   keywords: 'JELD-WEN windows Irving TX, JELD-WEN doors, AuraLast windows, window installation Irving',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/brands/jeld-wen-windows-doors',
+  },
 }
 
 export default function JeldWenBrandPage() {

@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Marvin Windows & Doors Irving TX | Premium Custom Installation',
   description: 'Professional Marvin Windows and Doors installation in Irving, TX. Premium quality custom craftsmanship and made-to-order solutions. Call 972-284-7995 for free estimate.',
   keywords: 'Marvin windows Irving TX, Marvin doors, custom windows, window installation Irving',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/brands/marvin-windows-doors',
+  },
 }
 
 export default function MarvinBrandPage() {

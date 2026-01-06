@@ -51,6 +51,7 @@ export function PageFooter() {
               <li><a href="/windows" className="footer-link">Windows</a></li>
               <li><a href="/doors" className="footer-link">Doors</a></li>
               <li><a href="/locations" className="footer-link">Service Areas</a></li>
+              <li><a href="/sitemap.xml" className="footer-link">Sitemap</a></li>
             </ul>
           </div>
 

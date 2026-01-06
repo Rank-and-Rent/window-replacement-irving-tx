@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Andersen Windows & Doors Irving TX | Premium Installation',
   description: 'Professional Andersen Windows and Doors installation in Irving, TX. Fibrex technology, energy-efficient designs, and superior durability. Call 972-284-7995 for free estimate.',
   keywords: 'Andersen windows Irving TX, Andersen doors, Fibrex windows, window installation Irving',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/brands/andersen-windows-doors',
+  },
 }
 
 export default function AndersenBrandPage() {

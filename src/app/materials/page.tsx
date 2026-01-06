@@ -2,58 +2,57 @@ import type { Metadata } from 'next'
 import { PageHeader } from '@/components/page-header'
 import { PageFooter } from '@/components/page-footer'
 import Link from 'next/link'
-import { servicesData } from '@/data'
 
 export const metadata: Metadata = {
-  title: 'Door Installation Irving TX | Entry, Patio, French & More',
-  description: 'Professional door installation in Irving, TX. Entry doors, patio doors, French doors, sliding glass doors, storm doors and custom doors from Andersen, Pella, JELD-WEN, Marvin. Call 972-284-7995.',
-  keywords: 'door installation Irving TX, entry doors, patio doors, French doors, door replacement Irving',
+  title: 'Window Materials Irving TX | Vinyl, Aluminum, Fibrex, Fiberglass, Wood',
+  description: 'Explore all window materials in Irving, TX. Vinyl, aluminum, Fibrex, fiberglass, wood clad, and wood windows. Professional installation near DFW Airport. Call 972-284-7995.',
+  keywords: 'window materials Irving TX, vinyl windows, aluminum windows, Fibrex windows, fiberglass windows, wood clad windows, wood windows',
 }
 
-export default function DoorsIndexPage() {
-  // Define the specific door types to display in order
-  const doorServices = [
+export default function MaterialsIndexPage() {
+  // Define the specific material types to display in order
+  const materialServices = [
     {
-      slug: 'entry-door-installation',
-      name: 'Entry Doors',
-      short: 'Professional installation of front entry doors',
-      route: '/doors/entry-door-installation',
-      image: '/doors/entry-doors-irving-tx.jpg',
+      slug: 'vinyl-windows',
+      name: 'Vinyl Windows',
+      short: 'Low-maintenance vinyl windows with superior energy efficiency',
+      route: '/windows/vinyl-windows',
+      image: '/window-types/vinyl-irving-tx.jpg',
     },
     {
-      slug: 'patio-door-installation',
-      name: 'Patio Doors',
-      short: 'Sliding and hinged patio doors for seamless indoor-outdoor access',
-      route: '/doors/patio-door-installation',
-      image: '/doors/patio-doors-irving-tx.png',
+      slug: 'aluminum-windows',
+      name: 'Aluminum Windows',
+      short: 'Durable aluminum windows with modern thermal efficiency',
+      route: '/windows/aluminum-windows',
+      image: '/window-types/aluminum-irving-tx.jpg',
     },
     {
-      slug: 'french-door-installation',
-      name: 'French Doors',
-      short: 'Classic double doors with glass panels for elegant transitions',
-      route: '/doors/french-door-installation',
-      image: '/doors/french-doors-irving-tx.png',
+      slug: 'fibrex-windows',
+      name: 'Fibrex Windows',
+      short: "Andersen's premium composite material with wood-like beauty",
+      route: '/windows/fibrex-windows',
+      image: '/window-types/fibrex-irving-tx.jpg',
     },
     {
-      slug: 'sliding-glass-door-installation',
-      name: 'Sliding Glass Doors',
-      short: 'Space-saving sliding doors with expansive glass panels',
-      route: '/doors/sliding-glass-door-installation',
-      image: '/doors/sliding-glass-doors-irving-tx.avif',
+      slug: 'fiberglass-windows',
+      name: 'Fiberglass Windows',
+      short: 'Ultimate strength and insulation with authentic wood appearance',
+      route: '/windows/fiberglass-windows',
+      image: '/window-types/fiberglass-irving-tx.jpg',
     },
     {
-      slug: 'storm-door-installation',
-      name: 'Storm Doors',
-      short: 'Protective storm doors for added security and energy efficiency',
-      route: '/doors/storm-door-installation',
-      image: '/doors/storm-doors-irving-tx.jpg',
+      slug: 'wood-clad-windows',
+      name: 'Wood Clad Windows',
+      short: 'Authentic wood interiors with weather-resistant exterior protection',
+      route: '/windows/wood-clad-windows',
+      image: '/window-types/wood-clad-irving-tx.jpg',
     },
     {
-      slug: 'custom-door-installation',
-      name: 'Custom Doors',
-      short: 'Fully customized doors designed to your specifications',
-      route: '/doors/custom-door-installation',
-      image: '/doors/custom-doors-irving-tx.webp',
+      slug: 'wood-windows',
+      name: 'Wood Windows',
+      short: 'Traditional wood windows with natural beauty and superior insulation',
+      route: '/windows/wood-windows',
+      image: '/window-types/wood-irving-tx.jpg',
     },
   ]
 
@@ -66,17 +65,17 @@ export default function DoorsIndexPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(/doors/entry-doors-irving-tx.jpg)',
+            backgroundImage: 'url(/window-types/vinyl-irving-tx.jpg)',
           }}
         />
         <div className="hero-overlay absolute inset-0" />
         
         <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
           <h1 className="text-heading-serif text-4xl md:text-5xl lg:text-6xl text-white font-light mb-6 max-w-3xl mx-auto">
-            Professional Door Installation in Irving, TX
+            Window Materials in Irving, TX
           </h1>
           <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mb-8">
-            Enhance your home with premium doors from Andersen, Pella, JELD-WEN, and Marvin
+            Choose the perfect material for your Irving home&apos;s windows
           </p>
           <a href="/contact" className="btn-white">
             Request Free Estimate
@@ -88,23 +87,23 @@ export default function DoorsIndexPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-8">
-            Transform Your Home with Quality Doors
+            Premium Window Materials for Every Need
           </h2>
           <p className="text-charcoal-600 text-base leading-relaxed max-w-3xl mx-auto">
-            The right door makes all the difference in your Irving home. Whether you&apos;re looking to enhance curb appeal with a stunning entry door, create seamless indoor-outdoor living with patio doors, or add security and energy efficiency, we offer professional installation of premium doors from the industry&apos;s leading manufacturers.
+            The material you choose for your windows impacts everything from energy efficiency to maintenance requirements. We offer a comprehensive selection of premium window materials, each with unique benefits designed to meet Irving homeowners&apos; diverse needs and preferences.
           </p>
         </div>
       </section>
 
-      {/* Door Services Grid */}
+      {/* Materials Grid */}
       <section className="py-20 bg-stone-100">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light text-center mb-16">
-            Our Door Services
+            Window Materials
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {doorServices.map((service) => (
+            {materialServices.map((service) => (
               <Link
                 key={service.slug}
                 href={service.route}
@@ -137,43 +136,43 @@ export default function DoorsIndexPage() {
       <section className="py-20 bg-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light text-center mb-16">
-            Why Choose Us for Door Installation in Irving
+            Why Material Choice Matters
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4">
-                Premium Brands
-              </h3>
-              <p className="text-charcoal-600 text-sm leading-relaxed">
-                We install doors from Andersen, Pella, JELD-WEN, and Marvin - the industry&apos;s most trusted manufacturers.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4">
-                Expert Installation
-              </h3>
-              <p className="text-charcoal-600 text-sm leading-relaxed">
-                Our certified installers ensure proper fit, function, and weatherproofing for lasting performance.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4">
                 Energy Efficiency
               </h3>
               <p className="text-charcoal-600 text-sm leading-relaxed">
-                Modern doors reduce energy costs with superior insulation and weatherstripping.
+                The right material significantly impacts your home&apos;s insulation and energy costs.
               </p>
             </div>
             
             <div className="text-center">
               <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4">
-                Comprehensive Warranties
+                Durability
               </h3>
               <p className="text-charcoal-600 text-sm leading-relaxed">
-                All installations include manufacturer warranties plus our workmanship guarantee.
+                Premium materials withstand Irving&apos;s climate extremes for decades.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4">
+                Maintenance
+              </h3>
+              <p className="text-charcoal-600 text-sm leading-relaxed">
+                Different materials require varying levels of care and upkeep.
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4">
+                Aesthetics
+              </h3>
+              <p className="text-charcoal-600 text-sm leading-relaxed">
+                Each material offers unique visual appeal to match your home&apos;s style.
               </p>
             </div>
           </div>
@@ -184,10 +183,10 @@ export default function DoorsIndexPage() {
       <section className="py-24 md:py-32 bg-charcoal-500">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-white font-light mb-6 leading-relaxed">
-            Ready to upgrade your doors in Irving?
+            Ready to choose the perfect material for your Irving windows?
           </h2>
           <p className="text-stone-300 text-base mb-10">
-            Get a free consultation and quote for your door installation project.
+            Get expert guidance on selecting the ideal window material for your home.
           </p>
           <a href="/contact" className="btn-white">
             Get in Touch

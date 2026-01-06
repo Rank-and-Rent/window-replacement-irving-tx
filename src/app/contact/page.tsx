@@ -120,7 +120,7 @@ export default function ContactPage() {
                 <div><h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-2">Hours</h3><p className="text-charcoal-600">Open 24/7 - Available for Emergency Service</p></div>
               </div>
             </div>
-            <div className="bg-charcoal-500 p-8 md:p-12">
+            <div id="contact-form" className="bg-charcoal-500 p-8 md:p-12">
               <h3 className="text-heading-serif text-2xl text-white font-light mb-6">Request a Free Quote</h3>
               {status === 'success' && <div className="bg-green-500 text-white p-4 rounded mb-6">{feedback}</div>}
               {status === 'error' && <div className="bg-red-500 text-white p-4 rounded mb-6">{feedback}</div>}

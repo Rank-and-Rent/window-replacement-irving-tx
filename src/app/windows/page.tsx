@@ -11,7 +11,66 @@ export const metadata: Metadata = {
 }
 
 export default function WindowsIndexPage() {
-  const windowServices = servicesData.filter(s => s.category === 'Windows')
+  // Define the specific window types to display in order
+  const windowServices = [
+    {
+      slug: 'double-hung-windows',
+      name: 'Double-Hung Windows',
+      short: 'Classic double-hung windows with top and bottom sashes that slide vertically',
+      route: '/windows/double-hung-windows',
+      image: '/windows/double-hung-windows-irving-tx.avif',
+    },
+    {
+      slug: 'single-hung-windows',
+      name: 'Single-Hung Windows',
+      short: 'Traditional windows with a fixed upper sash and movable lower sash',
+      route: '/windows/single-hung-windows',
+      image: '/windows/single-hung-windows-irving-tx.jpg',
+    },
+    {
+      slug: 'awning-windows',
+      name: 'Awning Windows',
+      short: 'Top-hinged windows that open outward, ideal for ventilation during rain',
+      route: '/windows/awning-windows',
+      image: '/windows/awning-windows-irving-tx.avif',
+    },
+    {
+      slug: 'casement-windows',
+      name: 'Casement Windows',
+      short: 'Side-hinged windows that open outward for maximum ventilation',
+      route: '/windows/casement-windows',
+      image: '/windows/casement-windows-irving-tx.webp',
+    },
+    {
+      slug: 'sliding-windows',
+      name: 'Sliding Windows',
+      short: 'Horizontally sliding windows perfect for wide openings',
+      route: '/windows/sliding-windows',
+      image: '/windows/sliding-windows-irving-tx.webp',
+    },
+    {
+      slug: 'picture-windows',
+      name: 'Picture Windows',
+      short: 'Large fixed windows that provide unobstructed views and natural light',
+      route: '/windows/picture-windows',
+      image: '/windows/picture-windows-irving-tx.jpg',
+    },
+    {
+      slug: 'bay-bow-windows',
+      name: 'Bay & Bow Windows',
+      short: 'Multi-panel windows that project outward, creating additional interior space',
+      route: '/windows/bay-bow-windows',
+      image: '/windows/bay-bow-windows-irving-tx.jpg',
+    },
+    {
+      slug: 'special-shape-windows',
+      name: 'Special Shape Windows',
+      short: 'Custom-shaped windows including arched, circular, and geometric designs',
+      route: '/windows/special-shape-windows',
+      image: '/windows/special-shape-windows-irving-tx.jpg',
+    },
+  ]
+  
   const materialServices = servicesData.filter(s => s.category === 'Materials')
 
   return (
@@ -67,6 +126,15 @@ export default function WindowsIndexPage() {
                 href={service.route}
                 className="group bg-white overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
+                {service.image && (
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={service.name}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                )}
                 <div className="p-8">
                   <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 mb-4 group-hover:text-charcoal-600 transition-colors">
                     {service.name}

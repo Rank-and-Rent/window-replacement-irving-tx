@@ -181,6 +181,67 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Materials Section - 3 Cards */}
+      <section className="py-20 md:py-28 bg-stone-100">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light text-center mb-12">
+            Window Materials
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 lg:gap-12 mb-12">
+            <a
+              href="/windows/vinyl-windows"
+              className="group block"
+            >
+              <div className="aspect-[4/5] overflow-hidden mb-6">
+                <img
+                  src="/window-types/vinyl-irving-tx.jpg"
+                  alt="Vinyl Windows"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-center text-[13px] tracking-[0.2em] uppercase font-medium text-charcoal-900">
+                Vinyl Windows
+              </h3>
+            </a>
+            <a
+              href="/windows/aluminum-windows"
+              className="group block"
+            >
+              <div className="aspect-[4/5] overflow-hidden mb-6">
+                <img
+                  src="/window-types/aluminum-irving-tx.jpg"
+                  alt="Aluminum Windows"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-center text-[13px] tracking-[0.2em] uppercase font-medium text-charcoal-900">
+                Aluminum Windows
+              </h3>
+            </a>
+            <a
+              href="/windows/fibrex-windows"
+              className="group block"
+            >
+              <div className="aspect-[4/5] overflow-hidden mb-6">
+                <img
+                  src="/window-types/fibrex-irving-tx.jpg"
+                  alt="Fibrex Windows"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+              <h3 className="text-center text-[13px] tracking-[0.2em] uppercase font-medium text-charcoal-900">
+                Fibrex Windows
+              </h3>
+            </a>
+          </div>
+          <div className="text-center">
+            <a href="/materials" className="btn-outline-dark">
+              View All Materials
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Statement - Dark Section */}
       <section className="py-24 md:py-32 bg-charcoal-500">
         <div className="max-w-[1000px] mx-auto px-6 lg:px-12">

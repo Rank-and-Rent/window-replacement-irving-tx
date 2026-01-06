@@ -28,6 +28,15 @@ const allDoorTypes = [
   { name: 'Custom Doors', slug: 'custom-door-installation' },
 ]
 
+const allMaterialTypes = [
+  { name: 'Vinyl Windows', slug: 'vinyl-windows' },
+  { name: 'Aluminum Windows', slug: 'aluminum-windows' },
+  { name: 'Fibrex Windows', slug: 'fibrex-windows' },
+  { name: 'Fiberglass Windows', slug: 'fiberglass-windows' },
+  { name: 'Wood Clad Windows', slug: 'wood-clad-windows' },
+  { name: 'Wood Windows', slug: 'wood-windows' },
+]
+
 const brands = [
   { name: 'Andersen', slug: 'andersen-windows-doors' },
   { name: 'Pella', slug: 'pella-windows-doors' },
@@ -108,6 +117,33 @@ export function PageHeader() {
                     className="block px-6 py-2 text-charcoal-900 hover:bg-stone-200 text-[13px] font-semibold tracking-wide bg-stone-50"
                   >
                     View All Doors
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Materials Dropdown */}
+            <div className="nav-dropdown">
+              <button className="flex items-center gap-2 text-white text-[13px] tracking-[0.15em] uppercase font-medium hover:text-stone-300 transition-colors py-2">
+                Materials
+                <FontAwesomeIcon icon={faChevronDown} className="w-3 h-3" />
+              </button>
+              <div className="nav-dropdown-content py-4">
+                {allMaterialTypes.map((type) => (
+                  <a
+                    key={type.slug}
+                    href={`/windows/${type.slug}`}
+                    className="block px-6 py-2 text-charcoal-700 hover:bg-stone-100 text-[13px] tracking-wide"
+                  >
+                    {type.name}
+                  </a>
+                ))}
+                <div className="border-t border-stone-300 mt-2 pt-2">
+                  <a
+                    href="/materials"
+                    className="block px-6 py-2 text-charcoal-900 hover:bg-stone-200 text-[13px] font-semibold tracking-wide bg-stone-50"
+                  >
+                    View All Materials
                   </a>
                 </div>
               </div>
@@ -216,6 +252,15 @@ export function PageHeader() {
                   </a>
                 ))}
                 <a href="/doors" className="block py-2 text-stone-300 text-sm font-semibold">View All Doors</a>
+              </div>
+              <div>
+                <span className="text-stone-400 text-[11px] tracking-[0.2em] uppercase block mb-2">Materials</span>
+                {allMaterialTypes.map((type) => (
+                  <a key={type.slug} href={`/windows/${type.slug}`} className="block py-2 text-white text-sm">
+                    {type.name}
+                  </a>
+                ))}
+                <a href="/materials" className="block py-2 text-stone-300 text-sm font-semibold">View All Materials</a>
               </div>
               <div>
                 <span className="text-stone-400 text-[11px] tracking-[0.2em] uppercase block mb-2">Brands</span>

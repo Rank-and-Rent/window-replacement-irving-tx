@@ -79,36 +79,32 @@ export default function BrandsIndexPage() {
       <section className="py-20 bg-stone-100">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid md:grid-cols-2 gap-12">
-            {brandsData.map((brand) => {
-              const imagePath = brand.slug === 'marvin-windows-doors'
-                ? '/brands/marvin-windows-irving-tx.avif'
-                : `/brands/${brand.slug.split('-')[0]}-windows-irving-tx.jpg`
-
-              return (
-                <Link
-                  key={brand.slug}
-                  href={brand.route}
-                  className="group bg-white p-12 hover:shadow-lg transition-shadow duration-300"
-                >
+            {brandsData.map((brand) => (
+              <Link
+                key={brand.slug}
+                href={brand.route}
+                className="group bg-white p-12 hover:shadow-lg transition-shadow duration-300"
+              >
+                {brand.image && (
                   <div className="mb-6">
                     <img
-                      src={imagePath}
+                      src={brand.image}
                       alt={brand.name}
                       className="max-w-xs mx-auto h-12 object-contain"
                     />
                   </div>
-                  <h3 className="text-heading-serif text-2xl md:text-3xl text-charcoal-900 font-light mb-6 group-hover:text-charcoal-600 transition-colors">
-                    {brand.name}
-                  </h3>
-                  <p className="text-charcoal-600 text-base leading-relaxed">
-                    {brand.description}
-                  </p>
-                  <span className="inline-block mt-6 text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 group-hover:text-charcoal-600 transition-colors">
-                    Learn More
-                  </span>
-                </Link>
-              )
-            })}
+                )}
+                <h3 className="text-heading-serif text-2xl md:text-3xl text-charcoal-900 font-light mb-6 group-hover:text-charcoal-600 transition-colors">
+                  {brand.name}
+                </h3>
+                <p className="text-charcoal-600 text-base leading-relaxed">
+                  {brand.description}
+                </p>
+                <span className="inline-block mt-6 text-[13px] tracking-[0.15em] uppercase font-medium text-charcoal-900 group-hover:text-charcoal-600 transition-colors">
+                  Learn More
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

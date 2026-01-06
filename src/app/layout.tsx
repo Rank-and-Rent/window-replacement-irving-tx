@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
+import { StickyCTA } from '@/components/sticky-cta'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://replacementwindowsirving.com'),
@@ -221,6 +222,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <StickyCTA />
         <Analytics />
       </body>
     </html>

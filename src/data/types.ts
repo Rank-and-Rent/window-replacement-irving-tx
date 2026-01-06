@@ -6,6 +6,7 @@ export interface ServiceItem {
   short: string;
   route: Slug;
   category?: string;
+  image?: string;
 }
 
 export interface LocationItem {
@@ -21,6 +22,7 @@ export interface BrandItem {
   name: string;
   route: Slug;
   description: string;
+  image?: string;
 }
 
 export interface ResourceLink {

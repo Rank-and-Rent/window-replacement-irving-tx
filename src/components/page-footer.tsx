@@ -18,9 +18,21 @@ const allDoorTypes = [
   { name: 'Custom Doors', slug: 'custom-door-installation' },
 ]
 
+const allMaterialTypes = [
+  { name: 'Vinyl Windows', slug: 'vinyl-windows' },
+  { name: 'Aluminum Windows', slug: 'aluminum-windows' },
+  { name: 'Fibrex Windows', slug: 'fibrex-windows' },
+  { name: 'Fiberglass Windows', slug: 'fiberglass-windows' },
+  { name: 'Wood Clad Windows', slug: 'wood-clad-windows' },
+  { name: 'Wood Windows', slug: 'wood-windows' },
+]
+
 const locations = [
-  'Fort Worth', 'Arlington', 'Dallas', 'Irving', 'Grand Prairie',
-  'Plano', 'Garland', 'Frisco'
+  'Irving', 'Dallas', 'Grand Prairie', 'Coppell', 'Euless',
+  'Bedford', 'Grapevine', 'Carrollton', 'Farmers Branch', 'Addison',
+  'Richardson', 'Plano', 'Lewisville', 'Flower Mound', 'Arlington',
+  'Fort Worth', 'Hurst', 'North Richland Hills', 'Colleyville', 'Southlake',
+  'Duncanville', 'DeSoto', 'Cedar Hill', 'Garland', 'Mesquite'
 ]
 
 
@@ -28,7 +40,7 @@ export function PageFooter() {
   return (
     <footer className="bg-charcoal-500 text-white pt-16 pb-8">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-12 pb-12 border-b border-charcoal-400">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-12 pb-12 border-b border-charcoal-400">
           <div>
             <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium mb-6">
               Navigate
@@ -63,6 +75,19 @@ export function PageFooter() {
               {allDoorTypes.slice(0, 6).map((type) => (
                 <li key={type.slug}>
                   <a href={`/doors/${type.slug}`} className="footer-link">{type.name}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[13px] tracking-[0.15em] uppercase font-medium mb-6">
+              Materials
+            </h3>
+            <ul className="space-y-3">
+              {allMaterialTypes.slice(0, 6).map((type) => (
+                <li key={type.slug}>
+                  <a href={`/windows/${type.slug}`} className="footer-link">{type.name}</a>
                 </li>
               ))}
             </ul>

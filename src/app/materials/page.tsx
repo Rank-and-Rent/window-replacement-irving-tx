@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Window Materials Irving TX | Vinyl, Aluminum, Fibrex, Fiberglass, Wood',
   description: 'Explore all window materials in Irving, TX. Vinyl, aluminum, Fibrex, fiberglass, wood clad, and wood windows. Professional installation near DFW Airport. Call 972-284-7995.',
   keywords: 'window materials Irving TX, vinyl windows, aluminum windows, Fibrex windows, fiberglass windows, wood clad windows, wood windows',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/materials',
+  },
 }
 
 export default function MaterialsIndexPage() {

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Aluminum Windows Replacement Irving TX | Durable, Modern Design',
   description: 'Premium aluminum replacement windows in Irving, TX. Sleek, durable performance with modern thermal efficiency. Everything priced including installation.',
   keywords: 'aluminum windows Irving TX, aluminum replacement windows, thermal break windows, modern windows',
+  alternates: {
+    canonical: 'https://replacementwindowsirving.com/windows/aluminum-windows',
+  },
 }
 
 export default function AluminumWindowsPage() {

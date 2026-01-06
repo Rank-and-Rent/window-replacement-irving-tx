@@ -88,6 +88,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     }))
   
+  // Material pages - filter for materials
+  const materialPages: MetadataRoute.Sitemap = servicesData
+    .filter(service => service.category === 'Materials')
+    .map((service) => ({
+      url: `${baseUrl}${service.route}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }))
+  
   // Location pages
   const locationPages: MetadataRoute.Sitemap = locationsData.map((location) => ({
     url: `${baseUrl}${location.route}`,
@@ -104,5 +114,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
   
-  return [...staticPages, ...windowPages, ...doorPages, ...locationPages, ...brandPages]
+  return [...staticPages, ...windowPages, ...doorPages, ...materialPages, ...locationPages, ...brandPages]
 }

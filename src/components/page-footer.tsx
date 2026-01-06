@@ -86,6 +86,9 @@ export function PageFooter() {
               Materials
             </h3>
             <ul className="space-y-3">
+              <li>
+                <a href="/materials" className="footer-link">View All Materials</a>
+              </li>
               {allMaterialTypes.slice(0, 6).map((type) => (
                 <li key={type.slug}>
                   <a href={`/windows/${type.slug}`} className="footer-link">{type.name}</a>

@@ -298,21 +298,21 @@ export default function HomePage() {
             Brands we carry
           </h2>
           <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 max-w-6xl mx-auto">
-            <a href="/brands/andersen" className="hover:opacity-80 transition-opacity">
+            <a href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
                 src="/andersen-windows-and-doors-irving-tx-logo.png"
                 alt="Andersen Windows & Doors"
                 className="h-16 lg:h-20 w-auto"
               />
             </a>
-            <a href="/brands/pella" className="hover:opacity-80 transition-opacity">
+            <a href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
                 src="/pella-windows-and-doors-irving-tx-logo.png"
                 alt="Pella Windows & Doors"
                 className="h-16 lg:h-20 w-auto"
               />
             </a>
-            <a href="/brands/jeld-wen" className="hover:opacity-80 transition-opacity">
+            <a href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
               <img
                 src="/jeld-wen-windows-and-doors-irving-tx-logo.png"
                 alt="Jeld-Wen Windows & Doors"

@@ -233,6 +233,43 @@ export default function AndersenBrandPage() {
       </section>
 
       {/* CTA Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-[1100px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-10">Andersen questions Irving homeowners ask</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">Why specify Andersen for an Irving home?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Andersen has been the volume leader in residential windows for over 120 years. Andersen 400 Series double-hung is the default Irving spec for most mid-range replacements. We carry multiple manufacturer lines so we can recommend the right product for your specific home rather than forcing one brand on every project. The right Andersen product line depends on era of construction, target price point, and the architectural details &mdash; window proportions, grille patterns, hardware finishes &mdash; you want to honor.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What Andersen product lines do you install most often in Irving?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Andersen 400 Series double-hung is the default Irving spec for most mid-range replacements. For premium remodels and historic restorations, we step up to the higher-tier lines. For value-engineered whole-home replacements, the standard lines deliver strong thermal performance at fair pricing. We&apos;ll bring sample frames and glass cutaways to the consultation so you can compare profiles against your existing trim.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">How do Andersen warranties compare?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Andersen warranties register limited lifetime on the IGU and frame for most premium product lines, with shorter terms on hardware and finishes. We register the warranty in your name on the day of completion, and you receive the manufacturer paperwork in a binder along with our written craftsmanship guarantee on the labor. Our guarantee covers install workmanship for ten years and rides on top of whatever the manufacturer offers.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What does the Andersen install process look like in Irving?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Our installers complete factory training programs for Andersen products, which matters because each manufacturer has specific requirements for shimming, foam type, sealant compatibility, and flashing tape. Most Irving whole-home replacements run two to three working days. Floors get rosin paper, furniture covered in 6-mil plastic, dust collection on every indoor cut, HEPA vacuum at the end of each shift. The final walkthrough happens with you alongside the lead installer, every sash demonstrated, every warranty registered.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What does Andersen pricing look like?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Andersen pricing varies sharply by product line. Standard vinyl runs at the value end of the spectrum, while premium wood-clad and aluminum-clad lines sit at the higher end. We provide written, itemized pricing per opening, listing frame material, exterior and interior finish, hardware, screen type, and glass package. There are no broker commissions tucked in, and you can take the quote, get competitive bids, and decide on your own timeline.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-stone-100">
+        <div className="max-w-[1100px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-8">Andersen installation in Irving</h2>
+          <p className="text-charcoal-600 leading-relaxed mb-4">Our Andersen installs in Irving range across every neighborhood and housing era &mdash; the older Plymouth Park ranches, Las Colinas mid-rise condos, Valley Ranch family homes, Cottonwood Valley customs, and the contemporary builds going up along the SH-161 corridor. Our crews complete factory training programs for Andersen products, which matters because each manufacturer has specific requirements for shimming, fastener schedule, foam type, sealant compatibility, and flashing tape detail.</p>
+          <p className="text-charcoal-600 leading-relaxed mb-4">DFW Airport noise routes over much of Irving on most days, particularly along the MacArthur Boulevard spine and the north Irving sections nearest the runway. We routinely scope Andersen laminated acoustic IGUs on bedroom and home-office windows facing the flight path, with standard Low-E coatings on the protected sides. The perceptual change inside the room is immediate.</p>
+          <p className="text-charcoal-600 leading-relaxed">Each install includes the Andersen manufacturer warranty plus our written ten-year craftsmanship guarantee on the labor. The warranty registers in your name on the day of completion, and you receive the manufacturer paperwork in a binder along with our guarantee documentation.</p>
+        </div>
+      </section>
+
       <section className="py-24 md:py-32 bg-charcoal-500">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-white font-light mb-6 leading-relaxed">

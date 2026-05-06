@@ -224,6 +224,34 @@ export default function PatioDoorPage() {
       </section>
 
       {/* CTA Section */}
+      <section className="py-20 bg-stone-100">
+        <div className="max-w-[1100px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-10">Patio Door questions Irving homeowners ask</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">How do patio doors fit my Irving home?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Patio doors connect the great room to the back yard and dictate how the home feels day-to-day. Almost every Irving Valley Ranch and Las Colinas home has at least one patio-door opening, patio doors are usually the right call when the homeowner wants a meaningful upgrade in performance, security, or aesthetic. We bring sample slabs, frame profiles, and hardware finishes to the consultation so you can compare options against your existing trim and millwork before deciding.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What materials hold up best in Irving&apos;s climate?</h3>
+              <p className="text-charcoal-600 leading-relaxed">For Irving&apos;s heat and UV exposure, fiberglass and steel both hold up far better than wood when the door faces direct afternoon sun. Wood doors deliver authentic appearance and substantial feel but require periodic refinishing on west-facing elevations. We&apos;ll talk through the trade-offs and run cost-of-ownership numbers across a 20-year horizon so the decision factors in both upfront cost and long-term maintenance.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">How secure are modern patio doors?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Current generation patio doors from Andersen, Pella, JELD-WEN, and Marvin all offer multi-point locking systems that engage the frame at three to five points along the height of the door, dramatically improving forced-entry resistance. Combined with a quality strike plate, three-inch screws into framing, and proper threshold installation, modern patio doors are substantially more secure than the doors most Irving homes shipped with originally.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What does the install involve?</h3>
+              <p className="text-charcoal-600 leading-relaxed">A typical patio doors install in Irving runs four to eight hours depending on whether we&apos;re replacing the slab only or the full frame and threshold. We protect the surrounding floor with rosin paper, run dust collection on cuts, and HEPA vacuum at the end of each project. Most homeowners are surprised at how clean the process is when it&apos;s done by a careful crew.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What warranty coverage applies?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Every patio doors install includes the manufacturer warranty plus our written craftsmanship guarantee on the labor. Manufacturer warranties typically run 10 to 20 years on the slab and frame depending on product line, with shorter terms on hardware and finishes. Our craftsmanship guarantee covers the install workmanship for ten years; if a sash needs adjustment, weatherstripping fails, or hardware loosens during that period, we come back at no charge.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 md:py-32 bg-charcoal-500">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-white font-light mb-6 leading-relaxed">

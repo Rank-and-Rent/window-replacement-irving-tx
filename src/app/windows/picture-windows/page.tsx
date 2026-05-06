@@ -146,6 +146,34 @@ export default function PictureWindowsPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-stone-100">
+        <div className="max-w-[1100px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-10">Picture Windows questions Irving homeowners ask</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">Are picture windows a good fit for my Irving home?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Picture windows are fixed, non-operable units that maximize light and view. Great for Lake Carolyn views in Las Colinas, the Mandalay Canal blocks, and any Irving home with a memorable elevation, picture windows routinely solve problems that other configurations leave on the table. We&apos;ll evaluate your existing openings, the structural rough-opening sizes, and the orientation of each elevation before recommending the right product. The right answer often involves running picture windows on some elevations and a different style on others, and we&apos;ll show you why.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">How long do picture windows last in Irving&apos;s climate?</h3>
+              <p className="text-charcoal-600 leading-relaxed">A properly installed picture windows should give you 25 to 40 years of service in Irving&apos;s climate, depending on frame material and exposure. Vinyl typically lands in the lower end of that range; fiberglass and aluminum-clad frames often hit the upper end. UV exposure on west-facing elevations is the biggest stressor, so frame finish quality and Low-E glass selection both factor into longevity. Manufacturer warranties register limited lifetime on frame and IGU for most premium product lines.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What energy benefits do picture windows deliver?</h3>
+              <p className="text-charcoal-600 leading-relaxed">When the existing windows are original aluminum-framed singles or first-generation dual-pane, replacing with current-generation picture windows carrying a Low-E366 coating and argon fill typically delivers a measurable reduction on the next Oncor bill. The biggest gains show up on south- and west-facing elevations where the late-afternoon sun load is heaviest. We&apos;ll model the projected savings using your actual kWh history during the consultation.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">How long does the install take?</h3>
+              <p className="text-charcoal-600 leading-relaxed">A standard picture windows replacement takes about 45 to 90 minutes per opening once the old unit is removed, depending on the configuration and any structural surprises in the rough opening. A whole-home Irving project of 12 to 18 openings runs two to three working days from demo to final cleanup. We protect floors with rosin paper, drape furniture in 6-mil plastic, run dust collection on every indoor cut, and HEPA vacuum at the end of each shift.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">Do you provide written, itemized pricing?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Always. Every Irving proposal lists each window with size, configuration, frame material, exterior and interior finish, hardware, screen, and glass package. Installation labor, removal and disposal of the old units, and warranty terms are spelled out separately. There are no broker commissions tucked into the proposal, and you can take the quote home, get competitive bids, and decide on your own timeline.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 bg-stone-100">
         <div className="max-w-[800px] mx-auto px-6 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-8">

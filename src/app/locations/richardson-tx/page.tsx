@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Richardson TX | Premium Installation Services',
-  description: 'Professional window replacement throughout Richardson, TX. Serving all Richardson neighborhoods. Andersen, Pella & Jeld-Wen windows. Expert service: 972-284-7995',
+  description: 'Window replacement in Richardson, TX. Serving Richardson Heights, Cottonwood Creek, Hamilton Park, and the Telecom Corridor. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
 }
 
 export default function RichardsonPage() {
@@ -26,7 +26,7 @@ export default function RichardsonPage() {
             Window Replacement in Richardson, TX
           </h1>
           <p className="text-white/90 text-lg md:text-xl max-w-2xl mb-8">
-            Serving Richardson with premium replacement windows. From historic homes to modern developments, we deliver quality installations backed by manufacturer warranties.
+            Replacement windows for Richardson&apos;s mid-century brick ranches in Hamilton Park and Buckingham, the 1980s split-levels around Spring Park, and the contemporary builds along the Telecom Corridor. Energy upgrades, acoustic glass for US-75 noise, and a careful install crew.
           </p>
           <a href="/contact" className="btn-white">
             Get Quote
@@ -47,16 +47,16 @@ export default function RichardsonPage() {
 
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Window expertise for Richardson's communities
+                Richardson&apos;s mid-century stock and the windows it deserves
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                Richardson's diverse neighborhoods create unique opportunities for window replacement projects. From established residential areas to newer developments, we understand the architectural diversity that makes each home unique. Our experienced team brings specialized knowledge for Richardson's building styles and homeowner preferences.
+                Richardson&apos;s housing arc starts in the 1950s and runs through to the present. The original mid-century neighborhoods &mdash; Hamilton Park, Cottonwood Creek, Buckingham &mdash; carry a distinctive low-slung brick-ranch aesthetic with horizontal window bands and original aluminum or steel-frame casements. Many of those have been modified over decades, but the proportional sightlines still matter when we choose a replacement product. Pella Reserve, Marvin Signature, and Andersen E-Series casement lines support the slim sightlines mid-century elevations need.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                The city's location creates specific climate considerations. Richardson homes benefit from enhanced energy-efficient solutions that address local weather patterns and solar exposure. We ensure optimal energy efficiency and comfort throughout your Richardson home.
+                The 1970s and 1980s expansion north of Belt Line Road brought the more typical suburban two-story with double-hung pairs and aluminum-clad picture windows in the great room. Those homes are mostly on their original glazing, which means failed seals, fogged IGUs, and air leakage at every weatherstrip. Standard Andersen 400 Series or JELD-WEN Premium Vinyl in matching configurations is usually the right move there.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                As a locally-based company, we take pride in serving our Richardson neighbors. Our transparent pricing, professional installations, and comprehensive warranties have made us the trusted choice for window replacement throughout Richardson's communities.
+                The newer Telecom Corridor builds carry larger contemporary glass with darker frame finishes. Andersen E-Series black-clad and Marvin Elevate dark bronze get specified often.
               </p>
             </div>
           </div>
@@ -65,32 +65,31 @@ export default function RichardsonPage() {
 
       <section className="py-20 bg-stone-100">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light text-center mb-16">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light text-center mb-12">
             Richardson neighborhoods we serve
           </h2>
-
+          <p className="text-charcoal-600 leading-relaxed mb-10 max-w-3xl mx-auto text-center">
+            Richardson&apos;s neighborhood character varies sharply &mdash; the mid-century pocket near Hamilton Park needs different scoping than the newer Telecom Corridor blocks. We adjust our scoping conversation accordingly.
+          </p>
           <div className="grid md:grid-cols-3 gap-6 text-sm">
-            
             <div>
               <h3 className="text-[11px] tracking-[0.2em] uppercase font-medium text-charcoal-900 mb-3">North Richardson</h3>
               <ul className="text-charcoal-600 space-y-1">
                 <li>Richardson Heights</li>
                 <li>Spring Park</li>
-                <li>Greenville Avenue</li>
+                <li>Greenville Avenue corridor</li>
                 <li>Northrich</li>
               </ul>
             </div>
-            
             <div>
               <h3 className="text-[11px] tracking-[0.2em] uppercase font-medium text-charcoal-900 mb-3">Central Richardson</h3>
               <ul className="text-charcoal-600 space-y-1">
-                <li>Richardson Town Center</li>
                 <li>Cottonwood Creek</li>
                 <li>Breckenridge Park</li>
                 <li>Dartmouth</li>
+                <li>Town Center</li>
               </ul>
             </div>
-            
             <div>
               <h3 className="text-[11px] tracking-[0.2em] uppercase font-medium text-charcoal-900 mb-3">South Richardson</h3>
               <ul className="text-charcoal-600 space-y-1">
@@ -107,27 +106,25 @@ export default function RichardsonPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-12">
-            Richardson climate and window performance
+            Richardson climate and acoustic considerations
           </h2>
-
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-xl font-light text-charcoal-900 mb-4">Energy Efficiency Focus</h3>
+              <h3 className="text-xl font-light text-charcoal-900 mb-4">Energy upgrades on Oncor rates</h3>
               <p className="text-charcoal-600 leading-relaxed mb-4">
-                Texas climate extremes demand windows that perform in both scorching summers and occasional winter chills. Richardson homes benefit from advanced Low-E glass technology that maximizes natural light while minimizing heat transfer. This creates comfortable living spaces with reduced energy costs year-round.
+                The original aluminum and steel frames in mid-century Richardson homes conduct heat directly through the wall assembly. Replacing those with insulated vinyl or fiberglass cuts conductive loss substantially before the glass upgrade adds value. Add a Low-E366 coating with argon fill, and the next Oncor bill typically reflects the change.
               </p>
               <p className="text-charcoal-600 leading-relaxed">
-                Our window specifications account for Richardson's specific solar exposure patterns and weather patterns. Whether your home faces prevailing winds or direct afternoon sun, we recommend solutions that optimize comfort, energy efficiency, and long-term performance.
+                We&apos;ll model your projected savings using your actual kWh history rather than a generic brochure number.
               </p>
             </div>
-
             <div>
-              <h3 className="text-xl font-light text-charcoal-900 mb-4">Quality & Durability</h3>
+              <h3 className="text-xl font-light text-charcoal-900 mb-4">US-75 and DART noise</h3>
               <p className="text-charcoal-600 leading-relaxed mb-4">
-                Premium window brands like Andersen, Pella, and Jeld-Wen offer superior construction and materials that withstand Texas weather. Our factory-trained installers ensure proper installation for maximum performance and longevity.
+                Richardson sits along the US-75 spine and is bisected by the DART Red Line. Bedroom and home-office windows on those exposed elevations benefit meaningfully from laminated acoustic glass. We&apos;ve installed laminated upgrades on dozens of homes facing the highway and DART tracks, and the homeowner feedback is consistent: the sleep environment improves immediately.
               </p>
               <p className="text-charcoal-600 leading-relaxed">
-                Comprehensive warranties back every installation. We stand behind our work and the quality of the products we install, giving Richardson homeowners peace of mind for years to come.
+                We don&apos;t spec acoustic on every window &mdash; just where the noise actually drives perceived comfort.
               </p>
             </div>
           </div>
@@ -137,11 +134,42 @@ export default function RichardsonPage() {
       <section className="py-20 bg-charcoal-500">
         <div className="max-w-[1000px] mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-white font-light mb-8">
-            Richardson's trusted window replacement experts
+            Mid-century proportions, modern performance
           </h2>
-          <p className="text-stone-300 text-lg leading-relaxed max-w-2xl mx-auto">
-            Whether you're updating an established Richardson home or outfitting a new construction project, we bring the specialized expertise your project demands. Factory-trained installers, transparent pricing, and unwavering commitment to quality define every installation we complete in Richardson.
+          <p className="text-stone-300 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
+            We treat mid-century elevations with the proportional care they deserve. That means narrow sightlines, simulated divided lites where appropriate, and frame finishes that read correctly against original brick. For the more typical 1980s suburban stock, we focus on practical thermal performance and clean aesthetics. Either way, the install is methodical: rosin paper on floors, plastic on furniture, HEPA vacuum at the end of each day.
           </p>
+          <p className="text-stone-300 leading-relaxed max-w-2xl mx-auto">
+            Manufacturer warranties register in your name on completion. Our written craftsmanship guarantee covers labor for ten years.
+          </p>
+        </div>
+      </section>
+
+            <section className="py-20 bg-white">
+        <div className="max-w-[1100px] mx-auto px-6 lg:px-12">
+          <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-10">Common questions from Richardson homeowners</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">How long does a typical Richardson window replacement take?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Most Richardson whole-home projects run two to three working days from demo to final cleanup. A standard double-hung swap takes about 45 minutes per opening once the old unit is out, and we move methodically from elevation to elevation. Larger custom orders with arched or radius geometry add a day or two for ordering and a few additional hours per opening on install. We&apos;ll commit to a start and finish date in writing before you sign anything.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">Which window brand is best for my Richardson home?</h3>
+              <p className="text-charcoal-600 leading-relaxed">There is no single right answer because Richardson&apos;s mid-century ranch stock and the US-75 plus DART noise reality all push the spec in different directions. Our default recommendation for most Richardson mid-range projects is Andersen 400 Series double-hung or JELD-WEN Premium Vinyl &mdash; both deliver strong thermal performance at fair pricing. For custom-home work, premium remodels, and historic restorations, we step up to Andersen E-Series, Pella Reserve, or Marvin Signature. The right brand depends on your home, your goals, and your budget, and we&apos;ll show you the comparative spec sheets during the consultation rather than pushing one product on every project.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">Do energy-efficient windows really lower utility bills in Richardson?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Yes, particularly when the existing windows are original aluminum-framed singles or first-generation dual-pane. Replacing those with insulated vinyl or fiberglass frames carrying a Low-E366 coating and argon fill typically delivers a measurable reduction on the next Oncor bill. The biggest gains show up on the south- and west-facing elevations, where the late-afternoon sun load is heaviest. We&apos;ll model the projected savings using your actual kWh history during the consultation rather than quoting a generic brochure number.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">What does the warranty cover?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Every install includes the manufacturer warranty plus our written craftsmanship guarantee on the labor. The manufacturer warranty &mdash; typically limited lifetime on the IGU and frame, with shorter terms on hardware and finishes &mdash; registers in your name on the day of completion. Our craftsmanship guarantee covers the install workmanship for ten years. If a sash needs adjustment, a screen develops a tear, or weatherstripping fails during that period, we come back at no charge. Hamilton Park and Cottonwood Creek hold true mid-century proportional details, which we coordinate so that warranty registration and ARB documentation are both handled before we start.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium text-charcoal-900 mb-3">Do you provide written, itemized pricing?</h3>
+              <p className="text-charcoal-600 leading-relaxed">Always. Every Richardson proposal lists each window with size, configuration, frame material, exterior and interior finish, hardware, screen, and glass package. Installation labor, removal and disposal of the old units, and warranty terms are spelled out separately. There are no broker commissions tucked into the proposal, no surprise change orders, and no hidden line items. You can take the quote, get competitive bids, and decide on your own timeline without a high-pressure follow-up call.</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -151,7 +179,7 @@ export default function RichardsonPage() {
             Transform your Richardson home with premium windows
           </h2>
           <p className="text-charcoal-600 mb-10">
-            Schedule your complimentary consultation. We'll evaluate your Richardson property, recommend optimal window solutions, and provide detailed pricing with no sales pressure.
+            Schedule your complimentary in-home consultation. We&apos;ll evaluate your Richardson property, recommend products tuned to era and elevation, and provide a written, itemized quote with no high-pressure pitch.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/contact" className="btn-outline-dark">

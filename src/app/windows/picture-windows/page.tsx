@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Picture Windows Irving TX | Fixed Glass Window Installation',
-  description: 'Picture window replacement in Irving, TX. Maximum daylight, unobstructed views, zero air leakage. Andersen, Pella & Jeld-Wen fixed windows. Call 972-284-7995',
+  description: 'Fixed picture windows framing Lake Carolyn views from Las Colinas condos and the fairways at Cottonwood Valley. Tight seals, zero air leak, hail-rated glass options.',
 }
 
 export default function PictureWindowsPage() {

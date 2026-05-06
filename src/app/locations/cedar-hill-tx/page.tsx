@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Cedar Hill TX | Premium Installation Services',
-  description: 'Window replacement in Cedar Hill, TX. Serving Highland Hills, Lake Ridge, Cypress Lake and the Cedar Hill ISD neighborhoods south of Joe Pool. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Cedar Hill windows from an Irving-based installer — Highland Hills ridge homes, Lake Ridge, Cypress Lake, south of Joe Pool. UV-spec glass for west-facing elevations.',
 }
 
 export default function CedarHillPage() {

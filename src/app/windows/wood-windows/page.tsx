@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Wood Windows Replacement Irving TX | Authentic Natural Beauty',
-  description: 'Premium wood replacement windows in Irving, TX. Timeless beauty and authentic craftsmanship in solid wood. Everything priced including installation.',
+  description: 'Solid wood sashes for Hospital District craftsman homes and the original Plymouth Park ranches near MacArthur. Marvin Signature, period-correct profiles, custom stain.',
   keywords: 'wood windows Irving TX, wood replacement windows, solid wood windows, traditional windows',
 }
 

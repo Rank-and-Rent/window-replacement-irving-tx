@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement North Richland Hills TX | Premium Installation Services',
-  description: 'Window replacement in North Richland Hills, TX. Serving Smithfield, Holiday Glen, Birdville ISD and the mid-Cities. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'North Richland Hills windows from an Irving-based crew — Smithfield, Holiday Glen, Birdville ISD blocks, mid-Cities corridor. Energy Star vinyl, factory-trained install.',
 }
 
 export default function NorthRichlandHillsPage() {

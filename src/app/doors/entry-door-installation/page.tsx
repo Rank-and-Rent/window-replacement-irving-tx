@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Entry Door Installation Irving TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional entry door installation in Irving, TX. Fiberglass, steel, and wood entry doors from top manufacturers. Enhanced security, energy efficiency, and curb appeal. Call 972-284-7995 for free estimate.',
+  description: 'Entry doors for Las Colinas mid-rise lobbies, Valley Ranch front porches, and Hackberry Creek custom thresholds. Multi-point locks, smart-ready, factory-trained Irving install.',
   keywords: 'entry door installation Irving TX, front door installation, Andersen doors, Pella doors, JELD-WEN doors, Marvin doors',
 }
 
@@ -50,13 +50,13 @@ export default function EntryDoorPage() {
             
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Your entry door makes a statement
+                Entry doors built for the Irving entry sequence
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                Your entry door is more than just a functional barrier between your home and the outside world. It is the first impression visitors have of your Irving home, a critical security feature protecting your family and belongings, and a significant factor in your home&apos;s energy efficiency.
+                Irving entry doors face a different load than the suburban norm. Las Colinas mid-rise lobbies want a fiberglass slab with a multi-point lock and smart-ready hardware that holds up to corporate-tenant turnover. Plymouth Park ranches and Hospital District craftsman homes want a wood or wood-clad door scaled to original 1960s and 1920s rough openings, not the modern 36-inch standard. The right door depends on which Irving you live in.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                A premium entry door from Andersen, Pella, JELD-WEN, or Marvin combines all three elements—stunning aesthetics, robust security, and superior insulation—while requiring minimal maintenance for decades.
+                Andersen, Pella, JELD-WEN, and Marvin entry door lines all install differently — strike-plate spec, sill-pan flashing, hinge-screw schedule. We carry the manufacturer training cards because the wrong technique will look fine for two summers and then start to leak.
               </p>
             </div>
           </div>

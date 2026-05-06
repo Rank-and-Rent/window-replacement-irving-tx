@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Bedford TX | Premium Installation Services',
-  description: 'Window replacement throughout Bedford, TX. Serving Bedford Oaks, Stone Creek, and the mid-Cities. Andersen, Pella & Jeld-Wen windows. Expert service: 972-284-7995',
+  description: 'Bedford windows from an Irving-based crew — Bedford Oaks ranches, Stone Creek family homes, mid-Cities ISD overlap. STC-rated glass for the DFW south-runway path.',
 }
 
 export default function BedfordPage() {

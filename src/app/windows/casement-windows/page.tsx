@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Casement Windows Irving TX | Crank-Out Windows Installation',
-  description: 'Premium casement window replacement in Irving, TX. Full opening, unobstructed views, superior ventilation. Andersen, Pella & Jeld-Wen crank-operated windows. 972-284-7995',
+  description: 'Crank-out casement windows that catch the Mandalay Canal breeze in Las Colinas townhomes and seal tight on Hackberry Creek custom builds. Andersen, Pella, JELD-WEN.',
 }
 
 export default function CasementWindowsPage() {

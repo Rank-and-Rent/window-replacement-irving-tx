@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Storm Door Installation Irving TX | Protective Storm Doors',
-  description: 'Professional storm door installation in Irving, TX. Protective storm doors for added security and energy efficiency from top manufacturers. Call 972-284-7995 for free estimate.',
+  description: 'Storm doors that shield Plymouth Park entries from west-facing sun and Valley Ranch porches from spring hail. Full-view, ventilating, and retractable-screen options.',
   keywords: 'storm door installation Irving TX, storm doors, screen doors, door installation Irving',
 }
 
@@ -50,13 +50,13 @@ export default function StormDoorPage() {
             
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Protection and versatility
+                Storm doors that earn their keep in Irving sun
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                Storm doors add a protective barrier in front of your main entry door, extending its life while providing versatility through interchangeable glass and screen panels. For Irving homeowners, storm doors deliver multiple benefits: they protect expensive entry doors from weather exposure, provide ventilation while maintaining security, improve energy efficiency, and add an extra layer of protection during severe weather events.
+                Storm doors do the most work in Irving on west-facing entries — Plymouth Park ranches, Valley Ranch front porches, La Villita rentals — where late-afternoon sun and wind-driven spring storms cook a wood entry door in two summers without one. The storm door takes the UV and hail load while the primary door stays clean. North Irving homes near DFW pull double duty for ventilation when an open primary door is desirable but a screen-only barrier is not.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                Modern storm doors from quality manufacturers like Andersen, Pella, and JELD-WEN combine durable construction with attractive designs that complement rather than detract from your home&apos;s curb appeal.
+                We install Andersen, Pella, and JELD-WEN storm doors with full-view glass, retractable screens, and self-storing combo panels. Closer hardware specification matters: we tune the closer for Texas wind so the door does not slam in spring gusts.
               </p>
             </div>
           </div>

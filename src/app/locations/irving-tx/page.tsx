@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Irving TX | Local Expert Installation',
-  description: 'Irving, TX window replacement specialists. Serving Las Colinas, Valley Ranch, Hackberry Creek, Plymouth Park & all Irving neighborhoods. Andersen, Pella, JELD-WEN & Marvin dealer. Call 972-284-7995',
+  description: 'Irving window replacement built for the Las Colinas mid-rise market, DFW flightpath noise, and the Cottonwood Valley estate stock. Laminated acoustic glass, free quote.',
 }
 
 export default function IrvingPage() {

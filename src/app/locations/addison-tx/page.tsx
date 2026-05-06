@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Addison TX | Premium Installation Services',
-  description: 'Professional window replacement throughout Addison, TX. Serving Addison Circle, Bent Tree and all Addison neighborhoods. Andersen, Pella & Jeld-Wen windows. Expert service: 972-284-7995',
+  description: 'Addison window replacement from an Irving-based crew — Addison Circle mid-rises, Bent Tree estates, the Tollway corporate-tenant condos. Acoustic IGUs for Addison Airport.',
 }
 
 export default function AddisonPage() {

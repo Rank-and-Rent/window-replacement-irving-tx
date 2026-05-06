@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Plano TX | Energy Efficient Windows',
-  description: 'Window replacement in Plano, TX. Serving West Plano, East Plano, Legacy West & Old Town. Premium Andersen, Pella, JELD-WEN, Marvin dealer. Call 972-284-7995',
+  description: 'Plano windows from an Irving-based installer — West Plano corporate-tenant condos, East Plano ranches, Legacy West towers, Old Town historics. Marvin Elevate options.',
 }
 
 export default function PlanoPage() {

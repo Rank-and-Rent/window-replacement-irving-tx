@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Carrollton TX | Premium Installation Services',
-  description: 'Window replacement in Carrollton, TX. Serving Old Downtown, Vista Ridge, Indian Creek, and the Carrollton-Farmers Branch ISD neighborhoods. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Carrollton windows from an Irving-based crew — Old Downtown historics, Vista Ridge, Indian Creek, CFB ISD blocks. SRP-3 IGUs sized to the local rough-opening era.',
 }
 
 export default function CarrolltonPage() {

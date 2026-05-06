@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement DeSoto TX | Premium Installation Services',
-  description: 'Professional window replacement throughout DeSoto, TX. Serving all DeSoto neighborhoods. Andersen, Pella & Jeld-Wen windows. Expert service: 972-284-7995',
+  description: 'DeSoto windows from an Irving-based crew — Eagle Ford ranches, Western Hills, the older blocks east of I-35. Hail-rated laminated glass, written-quote pricing.',
 }
 
 export default function DeSotoPage() {

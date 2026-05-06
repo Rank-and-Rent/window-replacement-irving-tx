@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Pella Windows & Doors Irving TX | Premium Installation',
-  description: 'Professional Pella Windows and Doors installation in Irving, TX. Energy-efficient designs with advanced InsulShield technology. Call 972-284-7995 for free estimate.',
+  description: 'Pella Reserve, Lifestyle, and 250 Series for Cottonwood Valley remodels and Las Colinas condo buyouts. InsulShield glazing, between-glass blinds, factory-trained Irving crew.',
   keywords: 'Pella windows Irving TX, Pella doors, InsulShield windows, window installation Irving',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/brands/pella-windows-doors',
@@ -92,7 +92,7 @@ export default function PellaBrandPage() {
             About Pella Windows & Doors
           </h2>
           <p className="text-charcoal-600 text-base leading-relaxed">
-            Pella has been an industry leader in window and door innovation since 1925. Renowned for their energy-efficient designs and customization options, Pella windows and doors feature advanced technologies like their proprietary InsulShield glass packages and innovative between-the-glass blinds and shades. From traditional double-hung and casement windows to elegant patio doors and entry systems, Pella products combine beauty, functionality, and lasting performance for Irving homes.
+            Pella sits in a specific lane in Irving — the architect-spec remodels and the higher-tier corporate-tenant condo conversions where the InsulShield glazing options and between-the-glass blinds matter to a buyer making a finish-out decision. We see Pella Reserve land on Cottonwood Valley fairway homes and the older Hackberry Creek estates where the wood interior holds a stain to match existing trim. Pella Lifestyle covers the meat of the Las Colinas condo replacement market, where the mid-tier wood-clad spec lands the right value-to-aesthetic ratio. Pella 250 Series vinyl handles Plymouth Park and Valley Ranch whole-home replacements when budget is the driver. The InsulShield Advanced and Triple-Pane glass packages specifically earn back their premium on west-facing Irving elevations.
           </p>
         </div>
       </section>

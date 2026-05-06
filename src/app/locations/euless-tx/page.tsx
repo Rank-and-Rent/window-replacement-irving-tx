@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Euless TX | Premium Installation Services',
-  description: 'Window replacement in Euless, TX. Serving Bear Creek, Glade, Harwood and the HEB ISD neighborhoods near DFW Airport. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Euless windows from an Irving-based installer — Bear Creek, Glade, Harwood near DFW Airport. STC-rated laminated glass cuts the south-runway flightpath noise.',
 }
 
 export default function EulessPage() {

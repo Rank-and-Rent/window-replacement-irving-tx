@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Sliding Glass Door Installation Irving TX | Space-Saving Patio Doors',
-  description: 'Professional sliding glass door installation in Irving, TX. Space-saving sliding doors with expansive glass panels from Andersen, Pella, JELD-WEN, Marvin. Call 972-284-7995.',
+  description: 'Sliding glass doors sized to Las Colinas balcony walls and Mandalay Canal lakefront patios. Stainless rollers, multi-track Marvin and Pella. Quiet, draft-free glide.',
   keywords: 'sliding glass door installation Irving TX, sliding patio doors, glass doors, door installation Irving',
 }
 
@@ -50,13 +50,13 @@ export default function SlidingGlassDoorPage() {
             
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Maximize your views and space
+                Sliders sized for the Irving balcony wall
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                Sliding glass doors provide the perfect solution for Irving homes seeking maximum outdoor views and indoor-outdoor connectivity without sacrificing interior or exterior space. Unlike hinged doors that require clearance for their swing arc, sliding glass doors glide horizontally on precision-engineered tracks, making them ideal for rooms with furniture near the door or patios with limited space.
+                Sliding glass doors are the dominant patio-access spec in Las Colinas townhomes around Lake Carolyn and along Mandalay Canal, where every square foot of balcony is reserved for furniture and the swing of a hinged door simply does not exist. Valley Ranch family homes lean on sliders for the same reason — a wide pool deck, a shaded back patio, no clearance to spare. The sliding plane keeps the floor plan open.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                Modern sliding glass doors from Andersen, Pella, JELD-WEN, and Marvin feature expansive glass areas that flood rooms with natural light while framing spectacular views of your outdoor spaces.
+                Andersen, Pella, JELD-WEN, and Marvin all build sliding doors, and each builds them differently. Roller systems vary from nylon to stainless ball-bearing, glass packages range from standard Low-E to laminated acoustic for the DFW flightpath, and track depth dictates which units fit a 1980s Las Colinas opening versus a new SH-161 build.
               </p>
             </div>
           </div>

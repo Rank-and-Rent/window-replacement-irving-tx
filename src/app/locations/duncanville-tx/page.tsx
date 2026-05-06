@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Duncanville TX | Premium Installation Services',
-  description: 'Window replacement in Duncanville, TX. Serving Cedar Ridge, Greenbriar, Whispering Hills and the Duncanville ISD neighborhoods. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Duncanville windows from an Irving-based installer — Cedar Ridge, Greenbriar, Whispering Hills, Duncanville ISD blocks. Energy Star vinyl matched to mid-century stock.',
 }
 
 export default function DuncanvillePage() {

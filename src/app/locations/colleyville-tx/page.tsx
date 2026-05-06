@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Colleyville TX | Premium Installation Services',
-  description: 'Window replacement in Colleyville, TX. Premium frames for Colleyville Estates, Heritage, Stonegate, and the larger custom homes between Hwy 121 and Glade Road. 972-284-7995',
+  description: 'Colleyville windows from an Irving-based crew — Colleyville Estates, Heritage, Stonegate customs between Hwy 121 and Glade Road. Marvin Signature, registered warranty.',
 }
 
 export default function ColleyvillePage() {

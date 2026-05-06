@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Farmers Branch TX | Premium Installation Services',
-  description: 'Window replacement in Farmers Branch, TX. Serving Brookhaven, Walnut Creek, the Mercer Crossing area, and the older blocks near Old Town. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Farmers Branch windows from a neighbor-Irving crew — Brookhaven ranches, Walnut Creek, Mercer Crossing condos, Old Town historics. Acoustic IGUs for Tollway frontage.',
 }
 
 export default function FarmersBranchPage() {

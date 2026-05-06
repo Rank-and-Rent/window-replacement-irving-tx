@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Aluminum Windows Replacement Irving TX | Durable, Modern Design',
-  description: 'Premium aluminum replacement windows in Irving, TX. Sleek, durable performance with modern thermal efficiency. Everything priced including installation.',
+  description: 'Thermally broken aluminum windows for Las Colinas mid-rises and contemporary Valley Ranch builds. Slim sightlines, high-spec IGUs, factory-trained Irving crew.',
   keywords: 'aluminum windows Irving TX, aluminum replacement windows, thermal break windows, modern windows',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/windows/aluminum-windows',

@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Arlington TX | Quality Installation & Service',
-  description: 'Window replacement in Arlington, TX. Serving the Entertainment District, Viridian, Lake Arlington, and the AISD neighborhoods. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Arlington windows from an Irving-based installer — Entertainment District glare control, Viridian master-planned, Lake Arlington custom homes. Hail-rated laminated IGUs.',
 }
 
 export default function ArlingtonPage() {

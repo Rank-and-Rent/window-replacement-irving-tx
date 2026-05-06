@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Flower Mound TX | Premium Installation Services',
-  description: 'Window replacement throughout Flower Mound, TX. Serving Bridlewood, Wellington, the Lakeside developments and all Flower Mound neighborhoods. Andersen, Pella & Jeld-Wen. 972-284-7995',
+  description: 'Flower Mound windows from an Irving-based installer — Bridlewood equestrian estates, Wellington customs, Lakeside DFW developments. Marvin Elevate, hail-rated glass.',
 }
 
 export default function FlowerMoundPage() {

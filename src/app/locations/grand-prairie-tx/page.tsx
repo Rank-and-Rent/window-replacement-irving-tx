@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Grand Prairie TX | Quality Installation',
-  description: 'Window replacement in Grand Prairie, TX. Serving Joe Pool Lake to Dalworth Park. Andersen, Pella & Jeld-Wen windows. Free estimates: 972-284-7995',
+  description: 'Grand Prairie windows from a neighbor-Irving crew — Joe Pool Lake waterfronts, Dalworth Park, the SH-360 corridor. Hail-rated impact glass for spring storm season.',
 }
 
 export default function GrandPrairiePage() {

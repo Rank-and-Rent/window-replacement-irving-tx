@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Sliding Windows Irving TX | Horizontal Gliding Window Replacement',
-  description: 'Sliding window replacement in Irving, TX. Space-saving horizontal operation, wide views. Perfect for patios & tight spaces. Andersen, Pella & Jeld-Wen. 972-284-7995',
+  description: 'Horizontal sliders sized for Las Colinas balcony walls, Mandalay Canal patios, and Valley Ranch wide-opening kitchens. Stainless rollers, smooth glide warranty.',
 }
 
 export default function SlidingWindowsPage() {

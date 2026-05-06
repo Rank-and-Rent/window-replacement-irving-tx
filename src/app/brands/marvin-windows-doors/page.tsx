@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Marvin Windows & Doors Irving TX | Premium Custom Installation',
-  description: 'Professional Marvin Windows and Doors installation in Irving, TX. Premium quality custom craftsmanship and made-to-order solutions. Call 972-284-7995 for free estimate.',
+  description: 'Marvin Elevate, Signature, and Essential lines for Hackberry Creek and Cottonwood Valley homes. Authorized Irving installer, white-glove install, factory-registered warranty.',
   keywords: 'Marvin windows Irving TX, Marvin doors, custom windows, window installation Irving',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/brands/marvin-windows-doors',
@@ -92,7 +92,7 @@ export default function MarvinBrandPage() {
             About Marvin Windows & Doors
           </h2>
           <p className="text-charcoal-600 text-base leading-relaxed">
-            Marvin Windows and Doors is synonymous with premium quality and custom craftsmanship. Family-owned since 1912, Marvin specializes in made-to-order windows and doors that combine timeless design with cutting-edge performance. Their extensive product lines, including Marvin Signature, Marvin Elevate, and Marvin Essential collections, offer unparalleled customization options in materials, finishes, and hardware. For Irving homeowners seeking luxury, durability, and architectural distinction, Marvin delivers exceptional value.
+            Marvin is the architect-specified line on Irving&apos;s premium custom market — Hackberry Creek and Cottonwood Valley golf-course estates, the larger Valley Ranch builds, the higher-end Las Colinas penthouses where the buyer wants a wood-clad window that reads as authentically wood from the inside. Marvin Signature handles the historic restorations and the new-construction customs where every detail is on a spec sheet. Marvin Elevate fiberglass takes the working middle of the premium remodel market — strong thermal performance, fairer price point than Signature, and durability that beats wood on a 20-year horizon. Marvin Essential vinyl covers the entry tier when budget governs but the Marvin name still matters. Made-to-order lead times run 6 to 10 weeks; we measure twice and order once.
           </p>
         </div>
       </section>

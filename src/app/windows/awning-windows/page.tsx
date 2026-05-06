@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Awning Windows Irving TX | Top-Hinged Ventilation Windows',
-  description: 'Awning window replacement in Irving, TX. Perfect for bathrooms & above doors. Ventilate during rain. Andersen, Pella & Jeld-Wen top-hinged windows. 972-284-7995',
+  description: 'Top-hinged awning windows that ventilate Las Colinas townhome stairwells and Valley Ranch baths during Texas downpours. Andersen, Pella, JELD-WEN, Marvin.',
 }
 
 export default function AwningWindowsPage() {

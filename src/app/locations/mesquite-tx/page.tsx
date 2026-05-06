@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Mesquite TX | Premium Installation Services',
-  description: 'Window replacement in Mesquite, TX. Serving Casa Linda, Northridge, the Pleasant Valley blocks, and the older neighborhoods near Town East Mall. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Mesquite windows from an Irving-based installer — Casa Linda, Northridge, Pleasant Valley, the older blocks near Town East. Hail-rated laminated glass, transparent pricing.',
 }
 
 export default function MesquitePage() {

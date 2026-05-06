@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Andersen Windows & Doors Irving TX | Premium Installation',
-  description: 'Professional Andersen Windows and Doors installation in Irving, TX. Fibrex technology, energy-efficient designs, and superior durability. Call 972-284-7995 for free estimate.',
+  description: 'Andersen 400, 200, and 100 Series Fibrex for Las Colinas mid-rises, Valley Ranch family homes, and Plymouth Park ranches. Authorized Irving install, registered warranty.',
   keywords: 'Andersen windows Irving TX, Andersen doors, Fibrex windows, window installation Irving',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/brands/andersen-windows-doors',
@@ -92,7 +92,7 @@ export default function AndersenBrandPage() {
             About Andersen Windows & Doors
           </h2>
           <p className="text-charcoal-600 text-base leading-relaxed">
-            Andersen Windows and Doors has been a trusted name in window and door manufacturing for over 120 years. Known for exceptional quality, energy efficiency, and innovative design, Andersen offers a comprehensive range of products including double-hung windows, casement windows, sliding patio doors, and hinged French doors. Their Fibrex material combines the strength of wood with the low-maintenance benefits of vinyl, providing superior durability and performance for Irving homeowners.
+            Andersen is the brand we install most often across Irving, and the reason is product-line breadth. Las Colinas mid-rise condos and the SH-161 newer master-planned blocks tend to land on Andersen 100 Series Fibrex for the budget profile and color flexibility. Valley Ranch and Plymouth Park family homes lean on the 200 and 400 Series for double-hung and casement replacements that fit the original 1970s and 1980s rough openings without modification. Hackberry Creek and Cottonwood Valley customs step up to the A-Series for the wood interior and aluminum cladding spec. Andersen Fibrex specifically handles Texas heat without the warp and finish failure that plagues straight vinyl on west-facing elevations.
           </p>
         </div>
       </section>

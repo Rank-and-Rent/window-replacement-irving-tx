@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Vinyl Windows Replacement Irving TX | Low Maintenance, Energy Efficient',
-  description: 'Premium vinyl replacement windows in Irving, TX. Low-maintenance, energy-efficient, and durable. Andersen, Pella & JELD-WEN vinyl options. Everything priced including installation.',
+  description: 'Vinyl replacement windows for Irving — Las Colinas mid-rises, Valley Ranch ranches, Plymouth Park bungalows. Low-E366, argon fill, Oncor savings. Free quote: 972-284-7995.',
   keywords: 'vinyl windows Irving TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/windows/vinyl-windows',

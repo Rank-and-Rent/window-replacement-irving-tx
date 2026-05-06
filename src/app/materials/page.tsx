@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Window Materials Irving TX | Vinyl, Aluminum, Fibrex, Fiberglass, Wood',
-  description: 'Explore all window materials in Irving, TX. Vinyl, aluminum, Fibrex, fiberglass, wood clad, and wood windows. Professional installation near DFW Airport. Call 972-284-7995.',
+  description: 'Window materials matched to Irving housing eras — vinyl for Plymouth Park ranches, fiberglass for Hackberry Creek customs, clad for Las Colinas mid-rise replacements.',
   keywords: 'window materials Irving TX, vinyl windows, aluminum windows, Fibrex windows, fiberglass windows, wood clad windows, wood windows',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/materials',
@@ -90,10 +90,10 @@ export default function MaterialsIndexPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-8">
-            Premium Window Materials for Every Need
+            Window materials matched to the Irving housing stock
           </h2>
           <p className="text-charcoal-600 text-base leading-relaxed max-w-3xl mx-auto">
-            The material you choose for your windows impacts everything from energy efficiency to maintenance requirements. We offer a comprehensive selection of premium window materials, each with unique benefits designed to meet Irving homeowners&apos; diverse needs and preferences.
+            Frame material drives every other decision — energy bill, maintenance schedule, and what the window looks like ten years in. The right pick varies by which Irving you live in. Vinyl runs the volume on Plymouth Park ranches and Valley Ranch family homes. Fiberglass and Fibrex hold up under DFW Airport-adjacent UV without finish failure. Wood-clad and Marvin Signature land on Hackberry Creek and Cottonwood Valley estates where the interior trim package matters. Aluminum slim-frame fits Las Colinas mid-rise contemporary builds.
           </p>
         </div>
       </section>

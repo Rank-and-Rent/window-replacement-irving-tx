@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Patio Door Installation Irving TX | Sliding & French Patio Doors',
-  description: 'Professional patio door installation in Irving, TX. Sliding and hinged patio doors from Andersen, Pella, JELD-WEN, and Marvin. Energy-efficient, beautiful, secure. Free estimates. Call 972-284-7995.',
+  description: 'Patio doors for Mandalay Canal townhomes, Valley Ranch backyards, and Cottonwood Valley fairway homes. Sliding, hinged, French. Hail-rated glass, smooth Texas-summer glide.',
   keywords: 'patio door installation Irving TX, sliding glass doors, French patio doors, door installation Irving',
 }
 
@@ -50,13 +50,13 @@ export default function PatioDoorPage() {
             
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Seamless indoor-outdoor living
+                Patio doors for the Irving outdoor room
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                Patio doors serve as the gateway between your Irving home&apos;s interior and outdoor living spaces, fundamentally shaping how you experience your property. Whether you envision lazy weekend mornings with coffee on the patio, summer evening barbecues with seamless guest flow, or simply bathing your living room in natural Texas light, the right patio door transforms daily life.
+                Irving patio doors handle a heavier seasonal load than most DFW suburbs. Cottonwood Valley fairway homes and Hackberry Creek estates push five-foot and eight-foot openings out to covered loggias for entertaining; Mandalay Canal townhomes need slim-frame sliders for tight balcony footprints; Valley Ranch backyards run wide-opening sliders or French swings to the pool deck. Each housing era brings its own measurement and structural reality.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                Modern patio doors from Andersen, Pella, JELD-WEN, and Marvin deliver expansive glass areas for unobstructed views, smooth operation that lasts for decades, and energy efficiency that keeps your home comfortable despite Irving&apos;s temperature extremes.
+                We carry Andersen, Pella, JELD-WEN, and Marvin patio doors and recommend the right configuration based on the opening, exposure, and how the door gets used. Standard sliders for daily kitchen-to-patio traffic, French swings for the formal living room, multi-slide stacking units when the budget supports it.
               </p>
             </div>
           </div>

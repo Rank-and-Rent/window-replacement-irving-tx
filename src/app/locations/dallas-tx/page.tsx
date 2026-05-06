@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Dallas TX | Premium Installation Services',
-  description: 'Window replacement throughout Dallas, TX. Serving Preston Hollow, Lake Highlands, Oak Cliff, Bishop Arts, and beyond. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Dallas window replacement from an Irving-based crew — Preston Hollow estates, Lake Highlands ranches, Oak Cliff bungalows. Acoustic IGUs, factory-trained installers.',
 }
 
 export default function DallasPage() {

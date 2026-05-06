@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'About Us | Window Replacement Irving TX',
-  description: 'Learn about our professional window and door installation services in Irving, TX. Premium products from Andersen, Pella, JELD-WEN, and Marvin. Call 972-284-7995.',
+  description: 'Irving-based window and door installer covering Las Colinas mid-rises, Valley Ranch, and Hackberry Creek. Factory-trained on Andersen, Pella, JELD-WEN, Marvin since day one.',
   keywords: 'about window replacement Irving TX, window installation company, door installation Irving',
 }
 

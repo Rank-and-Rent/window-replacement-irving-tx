@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Single-Hung Windows Irving TX | Affordable Energy-Efficient Replacement',
-  description: 'Budget-friendly single-hung window replacement in Irving, TX. Fixed upper sash, operable lower sash. Andersen, Pella & Jeld-Wen quality at accessible prices. Call 972-284-7995',
+  description: 'Single-hung windows priced for La Villita rentals, University Hills duplexes, and Plymouth Park starter homes. Energy Star, Oncor-friendly, factory-trained Irving install.',
 }
 
 export default function SingleHungWindowsPage() {

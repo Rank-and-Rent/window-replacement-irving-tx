@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Southlake TX | Premium Installation Services',
-  description: 'Window replacement in Southlake, TX. Premium frames for the Carroll ISD luxury homes around Town Square, Stone Lakes, and Timberlake. Acoustic glazing, hail-rated glass, and a flawless install. 972-284-7995',
+  description: 'Southlake windows from an Irving-based crew — Carroll ISD luxury customs around Town Square, Stone Lakes, Timberlake. Marvin Signature, DFW north-runway acoustic glass.',
 }
 
 export default function SouthlakePage() {

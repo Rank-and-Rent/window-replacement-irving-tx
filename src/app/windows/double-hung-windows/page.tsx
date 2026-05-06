@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Double-Hung Windows Irving TX | Energy Efficient Replacement',
-  description: 'Premium double-hung window replacement in Irving, TX. Both sashes tilt for easy cleaning. Andersen, Pella & Jeld-Wen options. Superior ventilation & traditional elegance. Free quote: 972-284-7995',
+  description: 'Double-hung windows that match Plymouth Park ranch profiles and Hospital District century-old trim. Tilt-in sashes, balance kits sized to your rough opening. 972-284-7995.',
 }
 
 export default function DoubleHungWindowsPage() {

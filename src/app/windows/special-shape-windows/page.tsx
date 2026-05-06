@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Special Shape Windows Irving TX | Custom Geometric Window Installation',
-  description: 'Custom special shape window replacement in Irving, TX. Arches, circles, triangles, trapezoids. Unique architectural windows. Andersen, Pella & Jeld-Wen. 972-284-7995',
+  description: 'Arches, eyebrows, trapezoids for Hackberry Creek customs, Cottonwood Valley estates, and Las Colinas mid-rise gables. Made-to-order Marvin and Pella architectural shapes.',
 }
 
 export default function SpecialShapeWindowsPage() {

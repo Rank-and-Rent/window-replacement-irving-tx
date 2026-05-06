@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Grapevine TX | Premium Installation Services',
-  description: 'Window replacement in Grapevine, TX. Acoustic glazing for the DFW flight path, hail-rated glass, and premium frames for Historic Main Street, Lake Grapevine, and Silver Lake homes. 972-284-7995',
+  description: 'Grapevine windows from a north-Irving install crew — DFW approach laminated glass for Historic Main Street, hail-rated IGUs for Silver Lake and Lake Grapevine homes.',
 }
 
 export default function GrapevinePage() {

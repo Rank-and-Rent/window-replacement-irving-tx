@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Wood Clad Windows Replacement Irving TX | Traditional Beauty, Modern Protection',
-  description: 'Premium wood clad replacement windows in Irving, TX. Authentic wood interior beauty with weather-resistant exterior protection. Everything priced including installation.',
+  description: 'Wood interior, aluminum-clad exterior windows that survive Texas hail and Hackberry Creek summers. Marvin and Pella clad lines for Cottonwood Valley remodels. 972-284-7995.',
   keywords: 'wood clad windows Irving TX, wood clad replacement windows, clad windows, wood interior windows',
 }
 

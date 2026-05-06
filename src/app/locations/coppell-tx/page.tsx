@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Coppell TX | Premium Installation Services',
-  description: 'Window replacement in Coppell, TX. Serving Old Town, City Place, Country Club Estates and the Coppell ISD neighborhoods. Acoustic glass for the DFW corridor. 972-284-7995',
+  description: 'Coppell window replacement from an Irving-based installer — Old Town historics, City Place, Country Club Estates. Coppell ISD overlap, DFW flightpath acoustic glass.',
 }
 
 export default function CoppellPage() {

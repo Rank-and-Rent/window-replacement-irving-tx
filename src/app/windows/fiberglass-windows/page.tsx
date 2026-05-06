@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Fiberglass Windows Replacement Irving TX | Ultimate Strength & Insulation',
-  description: 'Premium fiberglass replacement windows in Irving, TX. Maximum strength, superior insulation, and authentic wood appearance. Everything priced including installation.',
+  description: 'Marvin Elevate fiberglass for Cottonwood Valley golf homes and Hackberry Creek estates. Holds tight under Texas hail, beats wood on lifecycle cost. Free Irving estimate.',
   keywords: 'fiberglass windows Irving TX, fiberglass replacement windows, strong windows, insulated fiberglass windows',
 }
 

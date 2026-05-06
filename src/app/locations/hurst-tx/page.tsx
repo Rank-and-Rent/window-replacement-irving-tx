@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Hurst TX | Premium Installation Services',
-  description: 'Window replacement in Hurst, TX. Serving Hurst Hills, River Trails, the Bellvue blocks and the HEB ISD neighborhoods. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Hurst windows from an Irving-based installer — Hurst Hills, River Trails, Bellvue, HEB ISD blocks. STC-rated laminated glass for the DFW south-runway flightpath.',
 }
 
 export default function HurstPage() {

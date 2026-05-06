@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'JELD-WEN Windows & Doors Irving TX | Premium Installation',
-  description: 'Professional JELD-WEN Windows and Doors installation in Irving, TX. Reliable, affordable solutions with AuraLast protection. Call 972-284-7995 for free estimate.',
+  description: 'JELD-WEN windows and doors for La Villita, University Hills, and Plymouth Park rentals across Irving — AuraLast wood, vinyl, and clad lines on a corporate-tenant timeline.',
   keywords: 'JELD-WEN windows Irving TX, JELD-WEN doors, AuraLast windows, window installation Irving',
   alternates: {
     canonical: 'https://replacementwindowsirving.com/brands/jeld-wen-windows-doors',
@@ -92,7 +92,7 @@ export default function JeldWenBrandPage() {
             About JELD-WEN Windows & Doors
           </h2>
           <p className="text-charcoal-600 text-base leading-relaxed">
-            JELD-WEN is a global leader in window and door manufacturing, offering reliable and affordable solutions for residential applications. With a focus on quality craftsmanship and energy efficiency, JELD-WEN provides a wide selection of vinyl, wood, and aluminum-clad windows, as well as interior and exterior doors. Their AuraLast wood protection technology and Low-E glass options make JELD-WEN products an excellent choice for Irving homeowners seeking value and performance.
+            JELD-WEN earns its place in Irving on the rental and corporate-tenant turnover market — University Hills near the University of Dallas, La Villita rentals, the older Plymouth Park investor stock, and the affordable end of the Las Colinas condo conversion market. The price-to-performance equation pencils when the property cycles tenants every 18 to 36 months and the owner wants Energy Star-rated glazing without a Marvin or Pella line item. AuraLast wood specifically helps in Irving humidity by killing the rot vector at the source — the wood is treated in the manufacturing line, not surface-coated. JELD-WEN vinyl and wood-clad lines both qualify for Oncor energy rebates on most Irving zip codes.
           </p>
         </div>
       </section>

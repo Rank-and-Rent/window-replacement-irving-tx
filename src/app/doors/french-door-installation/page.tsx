@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'French Door Installation Irving TX | Interior & Exterior French Doors',
-  description: 'Professional French door installation in Irving, TX. Classic double doors with glass panels from Andersen, Pella, JELD-WEN, and Marvin. Elegant transitions for your home. Call 972-284-7995.',
+  description: 'French doors for Hackberry Creek dining rooms, Cottonwood Valley garden walls, and Las Colinas study transitions. Astragal seals, divided lites, Marvin and Pella in stock.',
   keywords: 'French door installation Irving TX, French doors, double doors, door installation Irving',
 }
 
@@ -50,13 +50,13 @@ export default function FrenchDoorPage() {
             
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Timeless elegance and functionality
+                French doors for Irving formal-room transitions
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                French doors bring timeless architectural elegance to Irving homes, combining classic design with modern performance. These double doors, characterized by glass panels extending their full length, create dramatic transitions between rooms or between interior and outdoor spaces.
+                French doors are the spec we see most often on Hackberry Creek dining-to-loggia transitions, Cottonwood Valley study-to-garden walls, and Las Colinas penthouse interior partitions. They land where the priority is sightline, period detail, and a measurable architectural moment — not maximum opening size. Divided lites, six-pane or eight-pane patterns, and astragal seal hardware all matter to homes from the original 1980s Las Colinas builds and the historic Hospital District blocks.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                Whether installed as patio doors leading to your backyard, interior doors between living spaces, or entry doors making a grand statement, French doors flood spaces with natural light while maintaining the traditional aesthetic that defines so many Texas homes.
+                Andersen, Pella, JELD-WEN, and Marvin all build French door lines with very different jamb depths and astragal hardware. The wrong substitution under a 1985 Las Colinas trim package will read as obviously aftermarket — we measure jamb depth and trim reveal before quoting.
               </p>
             </div>
           </div>

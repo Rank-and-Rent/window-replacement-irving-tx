@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Garland TX | Expert Installation Services',
-  description: 'Window replacement in Garland, TX. Serving Firewheel, Lake Ray Hubbard area & all Garland neighborhoods. Andersen, Pella & Jeld-Wen dealer. 972-284-7995',
+  description: 'Garland windows from an Irving-based installer — Firewheel master-planned, Lake Ray Hubbard waterfront, the older blocks east of I-635. SHGC-tuned glass, written quote.',
 }
 
 export default function GarlandPage() {

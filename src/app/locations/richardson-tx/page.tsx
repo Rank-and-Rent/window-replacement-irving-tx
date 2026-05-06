@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Richardson TX | Premium Installation Services',
-  description: 'Window replacement in Richardson, TX. Serving Richardson Heights, Cottonwood Creek, Hamilton Park, and the Telecom Corridor. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Richardson windows from an Irving-based crew — Richardson Heights, Cottonwood Creek, Hamilton Park, Telecom Corridor corporate condos. Acoustic IGUs, registered warranty.',
 }
 
 export default function RichardsonPage() {

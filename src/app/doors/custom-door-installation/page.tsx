@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Custom Door Installation Irving TX | Fully Customized Doors',
-  description: 'Professional custom door installation in Irving, TX. Fully customized doors designed to your specifications from Andersen, Pella, JELD-WEN, Marvin. Call 972-284-7995.',
+  description: 'Custom-built doors for non-standard openings in Hackberry Creek estates, Las Colinas penthouses, and historic Hospital District homes. Mahogany, walnut, oversize spec.',
   keywords: 'custom door installation Irving TX, custom doors, bespoke doors, door installation Irving',
 }
 
@@ -50,13 +50,13 @@ export default function CustomDoorPage() {
             
             <div>
               <h2 className="text-heading-serif text-3xl md:text-4xl text-charcoal-900 font-light mb-6">
-                Your vision, perfectly realized
+                Custom doors for Irving openings that don&apos;t fit a catalog
               </h2>
               <p className="text-charcoal-600 text-base leading-relaxed mb-6">
-                Custom doors represent the ultimate expression of personal style and architectural vision for Irving homeowners. When standard sizes don&apos;t fit your opening, when you envision specific design elements unavailable in stock products, or when you simply demand perfection tailored to your home&apos;s unique character, custom doors deliver exactly what you imagine.
+                Custom-built doors land most often on three Irving job types. Hackberry Creek and Cottonwood Valley estates with oversize entries that no stock unit covers. Las Colinas penthouses with non-standard 1980s rough openings that fall between modern catalog sizes. Hospital District craftsman homes and the older Plymouth Park blocks where matching the original profile and trim reveal matters more than checking an inventory box.
               </p>
               <p className="text-charcoal-600 text-base leading-relaxed">
-                Premium manufacturers like Marvin, Pella, Andersen, and JELD-WEN offer extensive customization programs that build doors to your exact specifications—dimensions, materials, finishes, glass, hardware, and architectural details all selected by you.
+                Marvin Signature, Pella Reserve, Andersen Architectural, and JELD-WEN Custom all build to your spec — mahogany, walnut, clear vertical-grain fir, custom finishes, custom glass packages, custom hardware. Lead times run six to twelve weeks from final approval, and we measure every opening twice before submitting.
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Lewisville TX | Premium Installation Services',
-  description: 'Window replacement in Lewisville, TX. Serving Castle Hills, Vista Ridge, Hidden Cove and the Lewisville Lake area. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Lewisville windows from an Irving-based crew — Castle Hills master-planned, Vista Ridge, Hidden Cove waterfronts, Lewisville Lake. SHGC-tuned glass, registered warranty.',
 }
 
 export default function LewisvillePage() {

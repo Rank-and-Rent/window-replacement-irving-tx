@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Fibrex Windows Replacement Irving TX | Andersen Premium Composite',
-  description: 'Premium Fibrex replacement windows in Irving, TX. Andersen\'s revolutionary composite technology combining wood beauty with modern durability. Everything priced including installation.',
+  description: 'Andersen Fibrex windows for Las Colinas condos and University Hills rentals — 200 Series and 100 Series options matched to corporate-tenant turnover budgets. 972-284-7995.',
   keywords: 'Fibrex windows Irving TX, Fibrex replacement windows, Andersen Fibrex, composite windows',
 }
 

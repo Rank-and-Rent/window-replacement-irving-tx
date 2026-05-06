@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Fort Worth TX | Andersen, Pella & Jeld-Wen Dealer',
-  description: 'Window replacement in Fort Worth, TX. Serving Fairmount, Tanglewood, Westover Hills, Walsh Ranch, and Clearfork. Andersen, Pella, JELD-WEN, Marvin. 972-284-7995',
+  description: 'Fort Worth windows from an Irving-based crew — Fairmount craftsman, Tanglewood, Westover Hills estates, Walsh Ranch, Clearfork. Period-correct sashes, registered warranty.',
 }
 
 export default function FortWorthPage() {

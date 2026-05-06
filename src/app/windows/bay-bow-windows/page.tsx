@@ -4,7 +4,7 @@ import { PageFooter } from '@/components/page-footer'
 
 export const metadata: Metadata = {
   title: 'Bay & Bow Windows Irving TX | Architectural Window Installation',
-  description: 'Bay and bow window replacement in Irving, TX. Add space, light & dimension. Andersen, Pella & Jeld-Wen projecting windows. Transform your home. 972-284-7995',
+  description: 'Bay and bow window builds for Hackberry Creek estates and Cottonwood Valley golf-course homes. Engineered seat boards, supported headers, full architectural redesign.',
 }
 
 export default function BayBowWindowsPage() {
